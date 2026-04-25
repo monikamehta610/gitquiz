@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Quantity Theory of Money",
+    "content": "The Quantity Theory of Money is expressed by the formula MV = PY, where M is the money supply, V is the velocity of money (how fast it changes hands), P is the price level, and Y is real GDP. This theory suggests that if the central bank increases the money supply (M) significantly faster than the economy grows (Y), the result must be an increase in prices (P)—otherwise known as inflation.",
+    "description": "If a country's Central Bank prints twice as much money overnight while the production of goods and services remains the same, what is the most likely outcome according to this theory?",
+    "options": [
+      "Widespread inflation as prices rise to match the new money supply.",
+      "A doubling of the actual amount of goods every citizen can buy.",
+      "A decrease in the national debt without any side effects.",
+      "The value of the currency will increase compared to other countries."
+    ],
+    "answer": "Widespread inflation as prices rise to match the new money supply.",
+    "explanation": "When 'too much money chases too few goods,' the purchasing power of each unit of currency drops, leading to higher prices across the board."
+  },
+  {
+    "question": "The Phillips Curve",
+    "content": "The Phillips Curve is a historical economic concept suggesting an inverse relationship between rates of unemployment and corresponding rates of inflation within an economy. Stated simply, when unemployment is low, inflation tends to be high; when unemployment is high, inflation tends to be low. Policymakers often use this to 'trade off' between these two economic challenges.",
+    "description": "If the government aggressively stimulates the economy to reach near-zero unemployment, what 'cost' do economists expect the public to pay in the short term?",
+    "options": [
+      "Higher inflation rates.",
+      "Lower interest rates.",
+      "A decrease in the national deficit.",
+      "An increase in the value of the local currency."
+    ],
+    "answer": "Higher inflation rates.",
+    "explanation": "Low unemployment means workers have more bargaining power for higher wages, which businesses then pass on to consumers in the form of higher prices."
+  },
+  {
+    "question": "Purchasing Power Parity (PPP)",
+    "content": "Purchasing Power Parity is an economic theory that allows the comparison of the purchasing power of various world currencies to one another. It is based on the 'Law of One Price,' which says that in the absence of transaction costs and trade barriers, identical goods should cost the same in different countries when expressed in a common currency.",
+    "description": "If a 'Big Mac' costs $5.00 in the USA and the equivalent of $10.00 in another country when converted at the current exchange rate, what does PPP suggest about that country's currency?",
+    "options": [
+      "The currency is overvalued compared to the US Dollar.",
+      "The currency is undervalued compared to the US Dollar.",
+      "The currency is perfectly stable.",
+      "The country has no inflation."
+    ],
+    "answer": "The currency is overvalued compared to the US Dollar.",
+    "explanation": "If it is significantly more expensive to buy the same good in that country, it suggests their currency's market exchange rate is higher than its actual purchasing power justifies."
+  },
+  {
+    "question": "Hyperinflation and its Causes",
+    "content": "Hyperinflation is defined as very high and typically accelerating inflation, often exceeding 50% per month. Robert Shiller notes that hyperinflation is almost always caused by a government's 'seigniorage'—printing money to pay for government spending because they cannot raise enough through taxes or borrowing.",
+    "description": "What was the primary reason citizens in 1920s Germany or modern-day Venezuela began using wheelbarrows of cash to buy a single loaf of bread?",
+    "options": [
+      "Extreme hyperinflation caused by the excessive printing of money.",
+      "A shortage of wheelbarrows in the local market.",
+      "The government banned the use of coins.",
+      "The value of gold became too high to use for daily purchases."
+    ],
+    "answer": "Extreme hyperinflation caused by the excessive printing of money.",
+    "explanation": "When money loses value by the hour, citizens must carry massive amounts of paper currency just to meet the skyrocketing prices of basic goods."
+  },
+  {
+    "question": "The 'Impossible Trinity' (Trilemma)",
+    "content": "The policy trilemma suggests that a country cannot achieve all three of the following at the same time: a fixed foreign exchange rate, free capital movement (no capital controls), and an independent monetary policy. A country must choose two and sacrifice the third.",
+    "description": "If a country wants to have a fixed exchange rate to encourage trade and allow investors to move money in and out freely, what must they give up?",
+    "options": [
+      "The ability to set their own interest rates independently.",
+      "The ability to collect taxes from citizens.",
+      "The right to have a national military.",
+      "The use of paper currency."
+    ],
+    "answer": "The ability to set their own interest rates independently.",
+    "explanation": "To maintain a fixed exchange rate with free capital movement, the country's interest rates must mirror the rates of the country they are pegged to, otherwise, money will flood in or out, breaking the peg."
+  },
+  {
+    "question": "Open Market Operations (OMO)",
+    "content": "Open Market Operations are the primary tool used by Central Banks to manage the money supply. When the Central Bank wants to 'ease' the economy, they buy government bonds from banks, which puts more cash into the banking system. When they want to 'tighten' the economy, they sell bonds, taking cash out of the system.",
+    "description": "If the Federal Reserve wants to lower interest rates to encourage more borrowing and spending, what action do they take in the bond market?",
+    "options": [
+      "They buy government bonds from commercial banks.",
+      "They sell government bonds to the public.",
+      "They ban the sale of all bonds.",
+      "They increase the interest rate on the bonds they already own."
+    ],
+    "answer": "They buy government bonds from commercial banks.",
+    "explanation": "By buying bonds, the Fed increases the 'reserves' (cash) available at banks, which lowers the cost of borrowing (interest rates)."
+  },
+  {
+    "question": "Foreign Direct Investment (FDI)",
+    "content": "FDI occurs when a company or individual from one country makes a physical investment into building a factory, office, or business in another country. This is different from 'portfolio investment' (just buying stocks), as FDI implies a long-term interest and management control over the foreign enterprise.",
+    "description": "If a US-based car manufacturer builds a new assembly plant in India, this is an example of which financial concept?",
+    "options": [
+      "Foreign Direct Investment (FDI)",
+      "Currency Speculation",
+      "Short Selling",
+      "Quantitative Easing"
+    ],
+    "answer": "Foreign Direct Investment (FDI)",
+    "explanation": "FDI involves a physical presence and long-term commitment to the host country's economy, rather than just trading financial assets."
+  },
+  {
+    "question": "The Gold Standard vs. Fiat Money",
+    "content": "For much of history, money was backed by gold (The Gold Standard), meaning every bill could be exchanged for a specific amount of gold. Today, most of the world uses 'Fiat Money,' which has no intrinsic value and is not backed by a physical commodity. Its value comes solely from government decree and the public's trust in the economy.",
+    "description": "What is the primary risk associated with a 'Fiat Money' system that did not exist under a strict Gold Standard?",
+    "options": [
+      "The risk that the government will print too much money and cause inflation.",
+      "The risk that there will be no gold left in the world.",
+      "The risk that citizens will refuse to use paper.",
+      "The risk that interest rates will be stuck at zero forever."
+    ],
+    "answer": "The risk that the government will print too much money and cause inflation.",
+    "explanation": "Under the Gold Standard, the money supply was limited by the amount of gold available. With Fiat money, there is no physical limit, making disciplined monetary policy essential to avoid inflation."
+  },
+  {
+    "question": "Seigniorage",
+    "content": "Seigniorage is the profit made by a government by issuing currency, especially the difference between the face value of coins and their production costs. In modern terms, it is the 'revenue' a government generates when it prints money to fund its own spending.",
+    "description": "If it costs the government 5 cents to print a $100 bill, the $99.95 difference is known as:",
+    "options": [
+      "Seigniorage",
+      "Arbitrage",
+      "Capital Gains",
+      "Dividends"
+    ],
+    "answer": "Seigniorage",
+    "explanation": "Seigniorage is a hidden form of revenue for governments, but relying on it too heavily to pay for bills is the leading cause of hyperinflation."
+  },
+  {
+    "question": "Current Account Deficit",
+    "content": "The Current Account measures a country's trade balance (exports vs. imports) plus net income from abroad. A 'Current Account Deficit' means a country is importing more goods, services, and capital than it is exporting. This must be balanced by a 'Financial Account Surplus,' meaning the country is essentially borrowing from the rest of the world.",
+    "description": "If the United States buys $1 billion worth of electronics from Japan but only sells $500 million worth of software to Japan, what is the result for the US trade balance?",
+    "options": [
+      "A trade deficit.",
+      "A trade surplus.",
+      "A balanced budget.",
+      "A currency peg."
+    ],
+    "answer": "A trade deficit.",
+    "explanation": "A deficit occurs when the value of imports (what you buy) exceeds the value of exports (what you sell)."
+  }
+]
