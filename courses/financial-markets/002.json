@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Pricing of Debt",
+    "content": "Bonds are debt instruments where the issuer borrows money and promises to pay it back with interest (the coupon). The 'Yield to Maturity' (YTM) is the total return anticipated on a bond if it is held until it ends. A critical rule in finance is that bond prices and interest rates have an inverse relationship: when market interest rates rise, existing bond prices fall, and vice versa.",
+    "description": "You hold a 10-year government bond with a fixed 3% interest rate. Suddenly, the Central Bank raises national interest rates to 5%. You decide to sell your bond on the open market. What happens to the price you receive?",
+    "options": [
+      "The price of your bond decreases.",
+      "The price of your bond increases.",
+      "The price remains exactly the same.",
+      "The bond is immediately cancelled."
+    ],
+    "answer": "The price of your bond decreases.",
+    "explanation": "Since new bonds are now offering 5%, no one will buy your 3% bond at its full face value. You must lower your price to make your bond's yield competitive with the new market rate."
+  },
+  {
+    "question": "Equity and The Discounted Cash Flow (DCF)",
+    "content": "Unlike bonds, stocks (equity) represent ownership. The value of a stock today is theoretically the 'Present Value' of all its future dividends. This is calculated using the Dividend Discount Model. Because future money is worth less than money today (due to inflation and risk), we 'discount' those future payments back to the present using a discount rate.",
+    "description": "A company is expected to pay a steady dividend of $5 per year forever. If the market's required rate of return (discount rate) suddenly increases because the economy becomes riskier, what happens to the stock's current valuation?",
+    "options": [
+      "The stock price goes down.",
+      "The stock price goes up.",
+      "The stock price is unaffected by the discount rate.",
+      "The dividends are legally required to double."
+    ],
+    "answer": "The stock price goes down.",
+    "explanation": "In the DCF formula, the discount rate is in the denominator. When the denominator (risk/required return) increases, the resulting 'Present Value' (the stock price) decreases."
+  },
+  {
+    "question": "The Consol Bond",
+    "content": "A 'Consol' is a perpetual bond—it has no maturity date and pays interest forever. While rare today, they were famously used by the British government to fund wars in the 18th and 19th centuries. The price of a Consol is simply the annual payment divided by the market interest rate ($P = C / r$).",
+    "description": "If a Consol bond pays $100 every year forever and the current market interest rate is 5%, what is the fair market price of this bond?",
+    "options": [
+      "$2,000",
+      "$500",
+      "$1,000",
+      "$10,000"
+    ],
+    "answer": "$2,000",
+    "explanation": "Using the formula $100 / 0.05 = 2,000$. This demonstrates how a small change in interest rates can significantly swing the value of long-term or perpetual debt."
+  },
+  {
+    "question": "Market Bubbles and Feedback Loops",
+    "content": "Robert Shiller describes a stock market bubble as a 'psychological epidemic.' It starts with a 'precipitating tribute' (like a new technology) that justifies price increases. This leads to a feedback loop: price increases generate more enthusiasm, which brings in more investors, which pushes prices even higher, regardless of the underlying value.",
+    "description": "During the Dot-com bubble of the late 1990s, many internet companies with zero profits saw their stock prices double every month. Investors bought in because they saw their neighbors getting rich. This is an example of:",
+    "options": [
+      "Irrational Exuberance",
+      "Fundamental Valuation",
+      "Mean Reversion",
+      "Regulatory Capture"
+    ],
+    "answer": "Irrational Exuberance",
+    "explanation": "Shiller coined this term to describe the psychological basis of a bubble where high prices are driven by crowd psychology rather than earnings."
+  },
+  {
+    "question": "The Price-to-Earnings (P/E) Ratio",
+    "content": "The P/E ratio measures a company's current share price relative to its per-share earnings. A high P/E might mean a stock is overvalued, or that investors expect high growth in the future. Shiller’s 'CAPE Ratio' (Cyclically Adjusted Price-to-Earnings) looks at average earnings over 10 years to smooth out economic cycles.",
+    "description": "Company A has a P/E of 50, while Company B has a P/E of 10. If both companies are in the same stable industry with similar growth, which company is the market 'pricing' as being much more expensive for every dollar of profit?",
+    "options": [
+      "Company A",
+      "Company B",
+      "Both are priced equally",
+      "Neither, as P/E only measures debt"
+    ],
+    "answer": "Company A",
+    "explanation": "A P/E of 50 means investors are willing to pay $50 for every $1 of current earnings, making it much more 'expensive' relative to its profits than Company B."
+  },
+  {
+    "question": "The Forward Market",
+    "content": "A 'Forward Contract' is a private agreement between two parties to buy or sell an asset at a specified price on a future date. This is used extensively in the currency markets. Unlike 'Futures,' Forward contracts are not traded on exchanges and can be customized to any amount or date.",
+    "description": "A US-based company expects to receive 1 million Euros in 90 days but fears the Euro will lose value against the Dollar. They enter a contract with a bank today to sell those Euros at a fixed rate of 1.10 in 90 days. This is an example of:",
+    "options": [
+      "Currency Hedging",
+      "Currency Arbitrage",
+      "Short Squeezing",
+      "Market Making"
+    ],
+    "answer": "Currency Hedging",
+    "explanation": "The company is using a forward contract to eliminate the risk of currency fluctuations, ensuring they know exactly how many dollars they will have in 90 days."
+  },
+  {
+    "question": "The Real Estate Market",
+    "content": "Real estate is the largest asset class in the world, but it is 'illiquid,' meaning it takes a long time to sell. Shiller notes that housing prices are often 'sticky' on the downside—homeowners refuse to lower their asking prices even when the market crashes because of the psychological pain of 'losing' money.",
+    "description": "During a housing market downturn, transaction volumes (the number of houses sold) usually drop significantly before the actual prices drop. Why does this happen?",
+    "options": [
+      "Sellers refuse to sell at a loss and wait for prices to recover.",
+      "The government bans the sale of houses during a crash.",
+      "Houses physically degrade faster during a recession.",
+      "Interest rates always drop to zero instantly."
+    ],
+    "answer": "Sellers refuse to sell at a loss and wait for prices to recover.",
+    "explanation": "This is a behavioral bias. Sellers 'anchor' to the peak price of the market and would rather not sell at all than accept a price lower than what they believe their home is 'worth'."
+  },
+  {
+    "question": "Corporate Dividends and 'Signal' Theory",
+    "content": "When a company pays a dividend, it is returning cash to shareholders. In theory, the stock price should drop by the exact amount of the dividend on the 'ex-dividend' date. However, dividends also serve as a 'signal': a company that consistently raises dividends is signaling to the market that it is confident in its future cash flows.",
+    "description": "A company that has paid a dividend for 20 years suddenly stops paying it. Even if they claim they are just 'saving cash,' the stock price often crashes. What is the market reacting to?",
+    "options": [
+      "The negative signal about future earnings.",
+      "The loss of the literal cash amount of the dividend only.",
+      "An increase in corporate taxes.",
+      "A change in the company's brand logo."
+    ],
+    "answer": "The negative signal about future earnings.",
+    "explanation": "Investors view the cut as a signal that the management is worried about the company's ability to generate cash in the future."
+  },
+  {
+    "question": "Stock Splits",
+    "content": "A stock split increases the number of shares in a company while decreasing the price per share proportionally. For example, in a 2-for-1 split, you get 2 shares for every 1 you owned, but the price is cut in half. Total market capitalization remains the same. Shiller argues this is mostly psychological—it makes the stock 'look' cheaper to small investors.",
+    "description": "Apple performs a 4-for-1 stock split. Before the split, you owned 10 shares worth $400 each (Total $4,000). After the split, what do you own?",
+    "options": [
+      "40 shares worth $100 each.",
+      "40 shares worth $400 each.",
+      "10 shares worth $1,600 each.",
+      "2 shares worth $2,000 each."
+    ],
+    "answer": "40 shares worth $100 each.",
+    "explanation": "The total value ($4,000) remains the same, but the share count quadruples and the price is divided by four."
+  },
+  {
+    "question": "Short Selling",
+    "content": "Short selling is the practice of borrowing a stock you don't own, selling it, and hoping to buy it back later at a lower price. It is a way to profit from a price decline. Short sellers provide a check on 'Irrational Exuberance' by betting against bubbles, though they face theoretically unlimited risk if the price keeps rising.",
+    "description": "You borrow 100 shares of a stock at $50 and sell them. Two weeks later, the company is caught in a scandal and the price drops to $30. You buy the shares back to return them to the lender. What is your profit (excluding fees)?",
+    "options": [
+      "$2,000",
+      "$3,000",
+      "$5,000",
+      "-$2,000"
+    ],
+    "answer": "$2,000",
+    "explanation": "You sold for $5,000 ($50 x 100) and bought back for $3,000 ($30 x 100). The difference of $2,000 is your profit."
+  }
+]
