@@ -1,132 +1,132 @@
 [
   {
-    "question": "11. The Efficient Markets Hypothesis (EMH)",
-    "content": "The Efficient Markets Hypothesis (EMH) states that asset prices fully reflect all available information. This implies that it is impossible to 'beat the market' consistently because stocks always trade at their fair value on exchanges. However, Professor Shiller's research into 'excess volatility' suggests that stock prices fluctuate much more than can be justified by changes in dividends, challenging this theory.",
-    "description": "If a new piece of positive news about a company is released and the stock price jumps instantly to a new stable level, which theory is being demonstrated?",
+    "question": "The Agency Problem",
+    "content": "In a modern corporation, there is a 'separation of ownership and control.' The owners (shareholders) are not the ones running the company; they hire professional managers (CEOs) to do it. The 'Agency Problem' occurs when managers act in their own interest (e.g., buying luxury office jets) rather than maximizing the value for the shareholders.",
+    "description": "A CEO decides to acquire a smaller company at a massive overpayment just to make their own company 'larger' and justify a higher personal salary, even though the move hurts the stock price. This is an example of:",
     "options": [
-      "Efficient Markets Hypothesis",
-      "Irrational Exuberance",
-      "The Disposition Effect",
-      "Mean Reversion"
+      "The Agency Problem",
+      "Market Efficiency",
+      "Diversification",
+      "The Law of One Price"
     ],
-    "answer": "Efficient Markets Hypothesis",
-    "explanation": "EMH suggests that markets are 'informationally efficient' and prices adjust immediately to new data, making it impossible to profit from news once it is public."
+    "answer": "The Agency Problem",
+    "explanation": "The 'agent' (CEO) is prioritizing their own ego and salary over the interests of the 'principal' (the shareholders), which is a classic failure of corporate governance."
   },
   {
-    "question": "12. Market Capitalization",
-    "content": "Market capitalization (Market Cap) represents the total dollar market value of a company's outstanding shares of stock. It is calculated by multiplying the current share price by the total number of shares. This metric helps investors understand the relative size of a company compared to others, rather than just looking at the price of a single share.",
-    "description": "Company A has a share price of $500 and 1 million shares. Company B has a share price of $10 and 100 million shares. Which company has the larger total market value?",
+    "question": "Common vs. Preferred Stock",
+    "content": "Common stock gives shareholders voting rights and a residual claim on profits. Preferred stock usually doesn't have voting rights but has a 'preference' over common stock, meaning preferred dividends must be paid first, and preferred holders are paid before common holders if the company goes bankrupt.",
+    "description": "If a company is struggling and can only afford to pay out $1 million in dividends, which group of investors has the legal right to be paid their full promised amount first?",
     "options": [
-      "Company A",
-      "Company B",
-      "They are both equal",
-      "Neither, share price determines value alone"
-    ],
-    "answer": "Company A",
-    "explanation": "Company A's market cap is $500 million ($500 x 1M), while Company B's is $1 billion ($10 x 100M). Wait—correcting the math: Company B ($1B) is larger than Company A ($500M)."
-  },
-  {
-    "question": "13. The Price-to-Earnings (P/E) Ratio",
-    "content": "The P/E ratio is a tool used to determine if a stock is over or undervalued. It compares the current price of a stock to its earnings per share (EPS). A high P/E ratio might suggest that investors expect high growth in the future, or that the stock is currently in a bubble.",
-    "description": "If the average P/E ratio for the tech industry is 25, but a specific tech company is trading at a P/E of 150 without a significant growth advantage, what might a value investor conclude?",
-    "options": [
-      "The stock is likely overvalued or in a bubble.",
-      "The stock is a bargain and should be bought immediately.",
-      "The company has no debt.",
-      "The company is about to go bankrupt."
-    ],
-    "answer": "The stock is likely overvalued or in a bubble.",
-    "explanation": "When the price is 150 times higher than the earnings, investors are paying a massive premium, which often signals a bubble unless the earnings growth is expected to be astronomical."
-  },
-  {
-    "question": "14. Stock Splits",
-    "content": "A stock split increases the number of shares in a company while proportionally reducing the price per share. While the total market value of the company does not change, splits are often used to make the stock feel more 'affordable' to retail investors. Shiller points out that this is a purely psychological tactic.",
-    "description": "You own 100 shares of a company worth $100 each. The company announces a 2-for-1 stock split. What do you own after the split is completed?",
-    "options": [
-      "200 shares worth $50 each.",
-      "200 shares worth $100 each.",
-      "100 shares worth $50 each.",
-      "50 shares worth $200 each."
-    ],
-    "answer": "200 shares worth $50 each.",
-    "explanation": "The number of shares doubles, and the price is halved. The total value of your investment remains $10,000 ($200 x $50)."
-  },
-  {
-    "question": "15. Preferred vs. Common Stock",
-    "content": "Common stock gives shareholders voting rights and a share in profits via dividends, but they are the last to be paid if a company fails. Preferred stock acts more like a bond; it usually has no voting rights but provides a fixed dividend that must be paid before common shareholders receive anything.",
-    "description": "In the event of a company's liquidation, who has the higher legal priority to claim the remaining assets?",
-    "options": [
-      "Preferred Shareholders",
       "Common Shareholders",
-      "The CEO",
-      "The Board of Directors"
+      "Preferred Shareholders",
+      "The Board of Directors",
+      "The CEO"
     ],
     "answer": "Preferred Shareholders",
-    "explanation": "Preferred shareholders have a 'preference' in the capital structure, meaning they are paid after bondholders but before common shareholders."
+    "explanation": "Preferred stock sits higher in the 'capital structure' than common stock, granting them priority for dividend payments and asset liquidation."
   },
   {
-    "question": "16. The Dividend Discount Model (DDM)",
-    "content": "The DDM is a method of valuing a company's stock price based on the theory that its stock is worth the sum of all of its future dividend payments, discounted back to their present value. If a company is expected to grow its dividends, the value of the stock should theoretically rise.",
-    "description": "If a company unexpectedly announces it is cancelling its dividend forever to pay for a legal settlement, what should happen to the stock price according to the DDM?",
+    "question": "The 1929 Crash and Margin Calls",
+    "content": "The stock market crash of 1929 was exacerbated by 'leverage.' Investors bought stocks on 'margin,' meaning they borrowed money from brokers to buy more shares than they could afford. When prices started to drop, brokers issued 'margin calls,' forcing investors to sell their shares immediately to pay back the loans, which caused prices to collapse even faster.",
+    "description": "Why does widespread 'buying on margin' make a stock market crash much more violent and rapid?",
     "options": [
-      "The stock price should drop significantly.",
-      "The stock price should stay the same.",
-      "The stock price should rise because debt is lower.",
-      "The stock price should be replaced by bonds."
+      "Because it creates a feedback loop of forced selling.",
+      "Because it makes the stock market close early.",
+      "Because borrowed money is worth less than cash.",
+      "Because it prevents investors from using computers."
     ],
-    "answer": "The stock price should drop significantly.",
-    "explanation": "If the future cash flow (dividends) becomes zero, the fundamental value calculated by the DDM also drops to near zero."
+    "answer": "Because it creates a feedback loop of forced selling.",
+    "explanation": "Margin calls force people to sell regardless of the price. This flood of 'forced sellers' drives prices down further, triggering more margin calls for others."
   },
   {
-    "question": "17. Short Selling",
-    "content": "Short selling is a technique where an investor borrows shares of a stock and sells them, intending to buy them back later at a lower price. This allows investors to profit from a market decline. It is risky because if the price rises, the potential loss is theoretically infinite.",
-    "description": "If you short sell 10 shares of a company at $100, but the price unexpectedly jumps to $1,000, what is your loss?",
+    "question": "The CAPE Ratio (Shiller P/E)",
+    "content": "Robert Shiller developed the Cyclically Adjusted Price-to-Earnings (CAPE) ratio to help identify if the market is overvalued. Unlike a standard P/E ratio which looks at one year, CAPE uses the average of the last 10 years of earnings (adjusted for inflation) to smooth out the 'noise' of the business cycle.",
+    "description": "If the current CAPE ratio is 35, while its historical average is around 16, what would a follower of Robert Shiller likely conclude about the stock market?",
     "options": [
-      "$9,000",
-      "$1,000",
-      "$100",
-      "Nothing, you still have the shares"
+      "The market is likely overvalued and future returns may be lower.",
+      "The market is a bargain and everyone should buy now.",
+      "The market has become perfectly efficient.",
+      "Earnings will definitely double tomorrow."
     ],
-    "answer": "$9,000",
-    "explanation": "You received $1,000 from the sale, but you must now spend $10,000 ($1,000 x 10) to buy them back and return them. $10,000 - $1,000 = $9,000 loss."
+    "answer": "The market is likely overvalued and future returns may be lower.",
+    "explanation": "A high CAPE ratio suggests that prices are high relative to the long-term earning power of companies, often a signal of lower long-term future returns."
   },
   {
-    "question": "18. The Role of the Central Bank",
-    "content": "Central banks, like the Federal Reserve, control the money supply and set short-term interest rates. Professor Shiller notes that when central banks lower interest rates, stock prices usually rise because the 'discount rate' for future earnings is lower, making stocks more attractive than savings accounts.",
-    "description": "When the Federal Reserve announces an aggressive series of interest rate hikes to fight inflation, what is the typical immediate reaction of the stock market?",
+    "question": "Stock Splits and Psychology",
+    "content": "A stock split occurs when a company increases its number of shares while decreasing the price proportionally. For example, in a 2-for-1 split, a $100 stock becomes two $50 shares. While the total value of the company doesn't change, Shiller notes that it often attracts more retail investors by making the price 'look' more affordable.",
+    "description": "Apple announces a 4-for-1 stock split. You owned 10 shares worth $400 each ($4,000 total). After the split, what is the new state of your investment?",
     "options": [
-      "Stock prices usually fall.",
-      "Stock prices usually rise.",
-      "The market stops trading for a week.",
-      "Companies are forced to issue more shares."
+      "40 shares worth $100 each.",
+      "40 shares worth $400 each.",
+      "10 shares worth $1,600 each.",
+      "2.5 shares worth $1,000 each."
     ],
-    "answer": "Stock prices usually fall.",
-    "explanation": "Higher interest rates increase the cost of borrowing for companies and increase the discount rate used to value future profits, leading to lower valuations."
+    "answer": "40 shares worth $100 each.",
+    "explanation": "The share count quadruples (10 x 4 = 40) and the price is divided by 4 ($400 / 4 = $100). The total value remains $4,000."
   },
   {
-    "question": "19. Mean Reversion",
-    "content": "Mean reversion is the financial theory that asset prices and historical returns eventually return to the long-term average or mean. Shiller uses this to explain why markets that are extremely expensive (high CAPE ratio) tend to have lower returns over the next decade as they 'revert' to the mean.",
-    "description": "After a 5-year period of 30% annual gains (well above the 10% average), a mean reversion theorist would predict that the next 5 years will likely see:",
+    "question": "Insider Trading",
+    "content": "Insider trading is the illegal practice of trading on the stock exchange to one's own advantage through having access to confidential, non-public information. This is banned because it destroys the 'fairness' of the market, making outsiders feel like the game is 'rigged,' which discourages them from investing.",
+    "description": "An employee at a tech company hears the CEO whispering that they are about to be bought by Google for a huge premium. The employee buys 1,000 shares before the news is public. This is a violation of:",
     "options": [
-      "Lower than average returns.",
-      "Even higher returns (40%).",
-      "Exactly 30% returns again.",
-      "A complete disappearance of the stock market."
+      "The Law of Supply and Demand.",
+      "Insider Trading laws.",
+      "The Efficient Markets Hypothesis.",
+      "The Dividend Discount Model."
     ],
-    "answer": "Lower than average returns.",
-    "explanation": "To get back to a long-term average of 10% after such high growth, the market usually needs a period of cooling off or lower performance."
+    "answer": "Insider Trading laws.",
+    "explanation": "Trading on material, non-public information is a crime because it exploits an unfair information advantage over other market participants."
   },
   {
-    "question": "20. The 1929 Market Crash and Margin",
-    "content": "The 1929 crash was fueled by 'buying on margin'—investors using borrowed money to buy stocks. When prices started to slip, lenders issued 'margin calls,' forcing investors to sell their stocks to pay back the loans. This forced selling created a downward spiral that crashed the entire system.",
-    "description": "Why does high levels of leverage (borrowed money) in the stock market make a crash much more violent?",
+    "question": "Short Selling",
+    "content": "Short selling is a strategy where an investor borrows shares of a stock they don't own, sells them, and hopes to buy them back later at a lower price. This allows investors to profit when a stock price falls. It is risky because if the price goes up, the potential losses are theoretically infinite.",
+    "description": "You 'short' 100 shares of a stock at $50. The stock price unexpectedly doubles to $100. What has happened to your account (excluding fees)?",
     "options": [
-      "Because it creates 'forced sellers' who must sell regardless of the price.",
-      "Because it makes the stocks physically weigh more.",
-      "Because the government bans borrowing during a crash.",
-      "Because it makes dividends illegal."
+      "You have a $5,000 profit.",
+      "You have a $5,000 loss.",
+      "You have a $10,000 profit.",
+      "You have broken even."
     ],
-    "answer": "Because it creates 'forced sellers' who must sell regardless of the price.",
-    "explanation": "Margin calls force investors to dump shares into a falling market, which lowers prices further, triggering more margin calls in a destructive feedback loop."
+    "answer": "You have a $5,000 loss.",
+    "explanation": "You sold for $5,000 ($50 x 100) but now you must spend $10,000 ($100 x 100) to buy the shares back and return them. The difference is a $5,000 loss."
+  },
+  {
+    "question": "Exchanges: NYSE vs. NASDAQ",
+    "content": "The New York Stock Exchange (NYSE) was historically an 'auction market' where buyers and sellers met on a physical floor. The NASDAQ is a 'dealer market' that was the world's first electronic stock market. Today, almost all trading is electronic, but the NYSE still maintains a physical floor for symbolic and high-visibility purposes.",
+    "description": "Which stock exchange is historically known as the 'tech' exchange because it was the first to use an entirely electronic, screen-based trading system?",
+    "options": [
+      "The NYSE",
+      "The NASDAQ",
+      "The Federal Reserve",
+      "The SEC"
+    ],
+    "answer": "The NASDAQ",
+    "explanation": "Launched in 1971, NASDAQ (National Association of Securities Dealers Automated Quotations) pioneered electronic trading, making it the natural home for tech giants."
+  },
+  {
+    "question": "Corporate Governance: The Board of Directors",
+    "content": "The Board of Directors is elected by shareholders to represent their interests. Their job is to hire and fire the CEO, set executive pay, and oversee the company's long-term strategy. Effective corporate governance requires that the board remains independent and doesn't just 'rubber-stamp' the CEO's decisions.",
+    "description": "If a CEO is performing poorly and the company's value is dropping, but the Board consists only of the CEO's close friends, what is the most likely problem with the company's governance?",
+    "options": [
+      "A lack of Board independence.",
+      "Too much diversification.",
+      "High systematic risk.",
+      "A violation of the CAPM."
+    ],
+    "answer": "A lack of Board independence.",
+    "explanation": "A board that is too close to the CEO cannot effectively fulfill its 'fiduciary duty' to protect the shareholders from poor management."
+  },
+  {
+    "question": "The Dividend Discount Model (DDM)",
+    "content": "The Dividend Discount Model is a way to value a company's stock by assuming that the stock's current price is the 'present value' of all its future dividend payments. If a company is expected to grow its dividends quickly, its stock price should be higher today.",
+    "description": "According to the DDM, if a company announces it will permanently stop paying all dividends and never return cash to shareholders, what should happen to its theoretical stock price?",
+    "options": [
+      "It should drop toward zero.",
+      "It should stay the same.",
+      "It should rise because the company has more cash.",
+      "It should be converted into a bond."
+    ],
+    "answer": "It should drop toward zero.",
+    "explanation": "If a stock is valued solely by its future dividends, and there are no future dividends, its fundamental value under this model becomes zero."
   }
 ]
