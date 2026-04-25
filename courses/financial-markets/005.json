@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Options: Calls and Puts",
+    "content": "An option is a contract that gives the buyer the right, but not the obligation, to buy or sell an asset at a specific price (the strike price) before a certain date. A 'Call' option is a bet that the price will go up, while a 'Put' option is a bet that the price will go down. The price paid for this right is called the 'premium.'",
+    "description": "An investor believes that Google's stock, currently at $150, will skyrocket after an AI announcement. They buy a 'Call' option with a strike price of $160. If the stock price stays at $150 until the option expires, what happens to the investor?",
+    "options": [
+      "They lose the premium they paid for the option.",
+      "They are forced to buy the stock at $160.",
+      "They make a profit of $10 per share.",
+      "The company must refund their investment."
+    ],
+    "answer": "They lose the premium they paid for the option.",
+    "explanation": "Because an option is a 'right' and not an 'obligation,' the investor simply chooses not to exercise it. Their only loss is the initial cost (premium) paid to buy the contract."
+  },
+  {
+    "question": "The Put-Call Parity",
+    "content": "Put-Call Parity is a fundamental principle in options pricing. It defines the relationship between the price of European put options and call options of the same class. If the relationship is out of balance, an 'arbitrage' opportunity exists where a trader could make a risk-free profit. This ensures that market prices stay aligned with logical mathematical values.",
+    "description": "If a sophisticated computer program detects that a Call option is priced significantly lower than it should be relative to its corresponding Put option, what will high-frequency traders likely do?",
+    "options": [
+      "Engage in arbitrage to profit from the price mismatch.",
+      "Wait for the government to reset the prices.",
+      "Buy both options and hold them for 10 years.",
+      "Stop trading until the market closes."
+    ],
+    "answer": "Engage in arbitrage to profit from the price mismatch.",
+    "explanation": "Arbitrageurs act quickly to buy the undervalued asset and sell the overvalued one, which eventually pushes the prices back into the correct 'parity' or balance."
+  },
+  {
+    "question": "Futures and 'Marking to Market'",
+    "content": "Unlike options, a Futures contract is an obligation. To ensure that both parties can fulfill their promise, futures exchanges use 'marking to market.' Every day, the profits or losses are calculated based on the day's closing price, and money is moved between the buyer's and seller's accounts immediately.",
+    "description": "A trader enters a futures contract to buy gold. Overnight, the price of gold crashes. What will the trader likely receive from their broker the next morning?",
+    "options": [
+      "A margin call requiring them to add more cash to their account.",
+      "A dividend check for the price difference.",
+      "A letter congratulating them on their position.",
+      "A refund for the lost value."
+    ],
+    "answer": "A margin call requiring them to add more cash to their account.",
+    "explanation": "Because of 'marking to market,' the loss is realized daily. If the account balance falls below a certain level, the trader must add funds to cover the potential obligation."
+  },
+  {
+    "question": "The VIX: The Fear Index",
+    "content": "The CBOE Volatility Index (VIX) measures the market's expectation of 30-day volatility based on S&P 500 index options. It is often called the 'Fear Index.' When the VIX is high, it means investors are nervous and expect large price swings; when it is low, it suggests market complacency or stability.",
+    "description": "During a global pandemic or a sudden geopolitical conflict, what would you expect to happen to the VIX index?",
+    "options": [
+      "The VIX would spike upward significantly.",
+      "The VIX would drop to zero.",
+      "The VIX would stay the same while stocks fall.",
+      "The VIX only moves when interest rates change."
+    ],
+    "answer": "The VIX would spike upward significantly.",
+    "explanation": "Uncertainty and fear drive investors to buy 'protection' (options), which increases the demand and price of those options, causing the VIX to rise."
+  },
+  {
+    "question": "Contango vs. Backwardation",
+    "content": "In futures markets, 'Contango' occurs when the future price of a commodity is higher than the current 'spot' price, often due to storage and insurance costs (common in oil). 'Backwardation' is the opposite, where the future price is lower than the spot price, usually signaling a current shortage of the physical asset.",
+    "description": "If there is a sudden drought and wheat is needed immediately for food, but the harvest next year is expected to be huge, which market state are we likely to see?",
+    "options": [
+      "Backwardation",
+      "Contango",
+      "Market Equilibrium",
+      "Stagflation"
+    ],
+    "answer": "Backwardation",
+    "explanation": "Because wheat is needed *now* and is scarce, the immediate 'spot' price becomes higher than the future price, creating backwardation."
+  },
+  {
+    "question": "Credit Default Swaps (CDS)",
+    "content": "A Credit Default Swap is essentially an insurance policy on a bond. The buyer of a CDS pays a periodic fee to a seller; in return, if the bond issuer (a company or country) defaults on their debt, the seller pays the buyer the lost value. This allows investors to 'swap' their credit risk with someone else.",
+    "description": "If an investor owns bonds in a struggling airline and fears the airline will go bankrupt, what financial instrument can they buy to protect themselves from a total loss?",
+    "options": [
+      "Credit Default Swap (CDS)",
+      "An Equity Call Option",
+      "A Forward Currency Contract",
+      "A Mutual Fund"
+    ],
+    "answer": "Credit Default Swap (CDS)",
+    "explanation": "A CDS acts as insurance against default. If the airline fails to pay its bondholders, the CDS seller covers the loss."
+  },
+  {
+    "question": "The Black-Scholes Model",
+    "content": "The Black-Scholes model is a mathematical formula used to determine the fair price of an option. It considers the current stock price, the strike price, the time until expiration, interest rates, and—most importantly—volatility. It revolutionized finance by allowing risk to be priced with high precision.",
+    "description": "According to the Black-Scholes model, if all other factors remain the same but the 'Volatility' of a stock increases, what happens to the price of the options on that stock?",
+    "options": [
+      "The option prices increase.",
+      "The option prices decrease.",
+      "The option prices are unaffected by volatility.",
+      "The options are immediately delisted."
+    ],
+    "answer": "The option prices increase.",
+    "explanation": "More volatility means a higher chance that the stock will hit the strike price (the 'win' condition for the holder), making the option more valuable."
+  },
+  {
+    "question": "Employee Stock Options",
+    "content": "Many companies grant stock options to employees as part of their compensation. These usually have a 'vesting period,' meaning the employee must stay at the company for a certain number of years before they can exercise the options. This is intended to solve the principal-agent problem by making employees 'owners.'",
+    "description": "An engineer at a startup is granted options to buy shares at $1. Three years later, the company goes public at $50 per share. What is the main benefit for the engineer?",
+    "options": [
+      "They can buy the shares at the $1 'strike' price and sell them at $50.",
+      "They receive a $49 check from the government.",
+      "They are automatically promoted to CEO.",
+      "The options are cancelled once the company goes public."
+    ],
+    "answer": "They can buy the shares at the $1 'strike' price and sell them at $50.",
+    "explanation": "The options allow the employee to capture the growth in value they helped create during their time at the company."
+  },
+  {
+    "question": "Swaps: Interest Rate Management",
+    "content": "An Interest Rate Swap is a contract where two parties exchange interest rate payments. Typically, one party pays a 'Fixed' rate while the other pays a 'Floating' rate. This allows companies to manage their exposure to changing interest rates without changing their actual loans.",
+    "description": "A company has a loan with a variable interest rate that keeps going up, making their monthly payments too expensive. What should they 'swap' for to get a predictable monthly cost?",
+    "options": [
+      "Swap their floating rate for a fixed rate.",
+      "Swap their fixed rate for a floating rate.",
+      "Swap their debt for equity.",
+      "Swap their office building for cash."
+    ],
+    "answer": "Swap their floating rate for a fixed rate.",
+    "explanation": "By swapping for a fixed rate, the company eliminates the uncertainty of rising interest rates and can budget more effectively."
+  },
+  {
+    "question": "Financial Innovation and 'Tranches'",
+    "content": "Financial engineering allows banks to take a large pool of loans (like mortgages) and slice them into 'tranches.' Some tranches are 'Senior' (paid first, very safe) and others are 'Junior' or 'Equity' (paid last, very risky). This allows the bank to sell pieces of the same loan pool to different types of investors.",
+    "description": "During the 2008 crisis, many 'Senior' tranches that were rated AAA (very safe) actually failed. What was the underlying problem with the engineering of these tranches?",
+    "options": [
+      "The underlying mortgages were much riskier than the models assumed.",
+      "The senior tranches were illegal.",
+      "The investors forgot to collect their payments.",
+      "The banks turned the mortgages into gold bars."
+    ],
+    "answer": "The underlying mortgages were much riskier than the models assumed.",
+    "explanation": "The models assumed that housing prices across the country wouldn't all fall at the same time. When they did, even the 'safe' senior tranches were wiped out."
+  }
+]
