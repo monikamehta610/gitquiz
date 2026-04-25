@@ -1,112 +1,132 @@
 [
   {
     "question": "1. Risk and Probability",
-    "content": "In financial markets, risk is often measured by the variance or standard deviation of returns. Robert Shiller highlights that humans often struggle to grasp 'low-probability, high-impact' events (Black Swans). To manage this, we use the Law of Large Numbers, which suggests that as we increase the number of independent observations, the average result stabilizes. This is the bedrock of the insurance industry.",
-    "description": "An insurance company is looking to provide flight cancellation insurance. They can either insure 10 people for $1 million each or 1,000,000 people for $10 each. According to the Law of Large Numbers, which scenario is safer for the company?",
+    "content": "In financial markets, risk is measured by the variance of returns. Robert Shiller highlights that humans often struggle to grasp 'low-probability, high-impact' events (Black Swans). To manage this, the insurance industry relies on the Law of Large Numbers, which suggests that as the number of independent observations increases, the average result becomes highly predictable.",
+    "description": "If an insurance company chooses to insure 1,000,000 people for a small fee rather than 10 people for a massive fee, why is the larger pool considered 'safer' for the company's financial stability?",
     "options": [
-      "Insuring 1,000,000 people for $10 each.",
-      "Insuring 10 people for $1 million each.",
-      "Both are equally risky because the total coverage is $10 million.",
-      "Neither, insurance companies do not use probability."
+      "Because the Law of Large Numbers makes the total payout highly predictable.",
+      "Because insuring more people always guarantees a higher profit margin.",
+      "Because 1 million people are less likely to have accidents than 10 people.",
+      "Because the government provides subsidies for larger insurance pools."
     ],
-    "answer": "Insuring 1,000,000 people for $10 each.",
-    "explanation": "With a massive pool of 1 million people, the 'idiosyncratic' risks of individual cancellations cancel each other out, making the total payout highly predictable and stable."
+    "answer": "Because the Law of Large Numbers makes the total payout highly predictable.",
+    "explanation": "With a massive pool, individual 'idiosyncratic' risks cancel each other out, allowing the company to calculate its expected losses with mathematical certainty."
   },
   {
     "question": "2. Risk Pooling and Diversification",
-    "content": "Diversification is the strategy of combining assets that do not move in perfect lockstep. In finance, this means holding a 'portfolio' of assets. By pooling risks that are uncorrelated, the overall volatility of the portfolio decreases. This is why investors are advised to hold a mix of stocks, bonds, and other asset classes.",
-    "description": "You decide to diversify your portfolio. You currently own stock in an airline company. To achieve true diversification and reduce risk, which of the following would be the most effective addition?",
+    "content": "Diversification is the strategy of combining assets that do not move in perfect lockstep. By pooling risks that are uncorrelated (meaning they don't react the same way to the same news), the overall volatility of a portfolio decreases. This is the foundation of modern portfolio theory.",
+    "description": "You currently own stock in an airline. To achieve the best diversification, should you add an aircraft manufacturing stock or an internet service provider stock to your portfolio?",
     "options": [
-      "An oil company stock.",
-      "Another airline company stock.",
       "An internet service provider stock.",
-      "An aircraft manufacturing stock."
+      "An aircraft manufacturing stock.",
+      "An oil refinery stock.",
+      "A travel agency stock."
     ],
     "answer": "An internet service provider stock.",
-    "explanation": "Airlines, oil, and aircraft manufacturing are highly correlated (e.g., fuel prices affect them all). An internet provider is less likely to be affected by the same specific economic shocks as the travel industry."
+    "explanation": "Airlines and aircraft manufacturers are in the same sector. An internet provider is uncorrelated to travel, meaning if fuel prices hurt airlines, the internet provider remains unaffected."
   },
   {
     "question": "3. The Concept of Moral Hazard",
-    "content": "Moral hazard occurs after a contract is signed. It happens when the insured party changes their behavior and takes more risks because they know the financial consequences are covered by the insurer. This 'hidden action' makes insurance more expensive for everyone in the pool.",
-    "description": "A business owner recently purchased a very comprehensive fire insurance policy that covers 100% of all potential losses. Afterward, they decide to stop paying for a night security guard to save money. This is an example of:",
+    "content": "Moral hazard occurs after a contract is signed. It describes a change in behavior: when an individual is insulated from risk, they may act more recklessly. This is a major challenge for insurers and bank bailouts alike.",
+    "description": "If a homeowner stops checking their smoke detector batteries only after they purchase a 100% payout fire insurance policy, what financial concept are they demonstrating?",
     "options": [
-      "Adverse Selection",
       "Moral Hazard",
+      "Adverse Selection",
       "Systematic Risk",
       "Diversification"
     ],
     "answer": "Moral Hazard",
-    "explanation": "The owner is taking a higher risk (removing security) specifically because the insurance policy has removed their personal financial incentive to prevent a fire."
+    "explanation": "The protection provided by the insurance policy removed the homeowner's incentive to take preventive measures against fire."
   },
   {
-    "question": "4. Adverse Selection and Information Asymmetry",
-    "content": "Adverse selection happens *before* a contract is signed. It arises from 'asymmetric information,' where the buyer knows more about their risk level than the seller. If an insurance company sets one average price, only high-risk individuals (who know they will benefit) will buy it, while low-risk individuals will opt out.",
-    "description": "A health insurance company offers a policy with no medical exam. They find that a disproportionate number of people with pre-existing conditions are signing up, while marathon runners are not. What problem is the company facing?",
+    "question": "4. Adverse Selection",
+    "content": "Adverse selection happens before a contract is signed due to asymmetric information. If an insurer offers a flat rate, those who know they are high-risk will rush to buy it, while low-risk individuals will opt out, eventually causing the insurance pool to fail.",
+    "description": "A health insurance company offers a plan with no medical exam. Why might this lead to a 'death spiral' where premiums keep rising until the company goes out of business?",
     "options": [
-      "Adverse Selection",
-      "Moral Hazard",
-      "Diversification",
-      "Liquidity Risk"
+      "Because only sick people (high-risk) will find the plan attractive, driving up claim costs.",
+      "Because healthy people will take more risks knowing they are covered.",
+      "Because the government will tax the company for not performing exams.",
+      "Because medical exams are the only way for a company to make a profit."
     ],
-    "answer": "Adverse Selection",
-    "explanation": "The 'high-risk' individuals are selecting themselves into the plan because they have private information about their health that the company hasn't screened for."
+    "answer": "Because only sick people (high-risk) will find the plan attractive, driving up claim costs.",
+    "explanation": "This is adverse selection; the 'bad' risks select themselves into the pool, forcing the company to raise prices, which then scares away any remaining 'good' risks."
   },
   {
-    "question": "5. Prospect Theory: Gains vs. Losses",
-    "content": "Traditional finance assumes people are rational. Behavioral finance, however, uses 'Prospect Theory' to show that we are 'Loss Averse.' Studies show that the pain of losing $1,000 is significantly more intense than the joy of winning $1,000. This leads to irrational holding of losing investments.",
-    "description": "An investor sees their stock drop from $50 to $30. Even though the company's outlook is terrible, they refuse to sell because they don't want to 'realize' the loss. This behavior is driven by:",
+    "question": "5. Prospect Theory: Loss Aversion",
+    "content": "Behavioral finance shows that humans are not purely rational. 'Prospect Theory' suggests we value gains and losses differently. Specifically, we experience the pain of a loss much more intensely than the joy of an equivalent gain.",
+    "description": "An investor holds a stock that has lost 40% of its value. Despite new data showing the company is failing, they refuse to sell because they don't want to 'make the loss real.' What bias is this?",
     "options": [
       "Loss Aversion",
+      "Overconfidence Bias",
       "The Wealth Effect",
-      "Rational Expectations",
       "Efficient Markets"
     ],
     "answer": "Loss Aversion",
-    "explanation": "Loss aversion causes investors to hold onto 'losers' for too long in the psychological hope that they will at least break even, avoiding the sting of a permanent loss."
+    "explanation": "Loss aversion leads investors to take irrational risks (like holding a failing stock) just to avoid the psychological sting of admitting a loss."
   },
   {
-    "question": "6. The Role of the Underwriter",
-    "content": "In the context of insurance or IPOs, an underwriter is a financial expert who evaluates risk. They determine whether a risk is worth taking and what price (premium) should be charged. They act as the 'gatekeepers' of financial stability by ensuring that risks are priced accurately based on data.",
-    "description": "When a large bank 'underwrites' a new corporate bond issue, they are essentially doing what for the corporation?",
+    "question": "6. Underwriting Risk",
+    "content": "Underwriters are the gatekeepers of risk. In an IPO or a bond issue, the underwriter (usually an investment bank) evaluates the issuer and often guarantees the sale of the securities, taking on the risk that the market won't buy them.",
+    "description": "If an investment bank agrees to a 'Firm Commitment' underwriting for a new stock but the public refuses to buy the shares at the set price, who loses the money?",
     "options": [
-      "Guaranteeing the company will never go bankrupt.",
-      "Providing a guarantee that the company will receive the needed funds at a certain price.",
-      "Managing the day-to-day manufacturing of the company.",
-      "Eliminating all systematic risk from the company's future."
+      "The Investment Bank.",
+      "The company issuing the stock.",
+      "The Central Bank.",
+      "The existing shareholders only."
     ],
-    "answer": "Providing a guarantee that the company will receive the needed funds at a certain price.",
-    "explanation": "The underwriter takes on the market risk. They buy the securities from the company and take the responsibility of selling them to investors."
+    "answer": "The Investment Bank.",
+    "explanation": "In a firm commitment, the bank has already bought the shares from the company; if they can't resell them, the bank carries the loss."
   },
   {
-    "question": "7. Social Insurance and Compulsory Participation",
-    "content": "Social insurance (like Social Security or National Health Care) is distinct from private insurance because it is often mandatory. Professor Shiller explains that making participation compulsory is the only way to truly solve the 'Adverse Selection' problem, as it forces low-risk and high-risk people into the same pool.",
-    "description": "Why does the government usually make 'Social Security' or national pension schemes mandatory for all workers rather than optional?",
+    "question": "7. Social Insurance",
+    "content": "Social insurance, like Social Security, is mandated by the government. Shiller argues this is necessary because if it were voluntary, the 'good risks' would leave, making the system unaffordable for those who need it most.",
+    "description": "Why is the 'compulsory' nature of Social Security considered a solution to the problem of adverse selection?",
     "options": [
-      "To ensure the insurance pool doesn't collapse due to only high-risk people joining.",
-      "To increase the complexity of the tax code.",
-      "To prevent people from investing in the stock market.",
-      "To encourage moral hazard among workers."
+      "It forces both low-risk and high-risk individuals into the pool, keeping average costs down.",
+      "It allows the government to invest the money in high-risk startups.",
+      "It eliminates the need for any actuarial math.",
+      "It prevents the stock market from crashing."
     ],
-    "answer": "To ensure the insurance pool doesn't collapse due to only high-risk people joining.",
-    "explanation": "Mandatory participation prevents 'adverse selection,' ensuring that the healthy and young contribute to the system, which supports the elderly and sick."
+    "answer": "It forces both low-risk and high-risk individuals into the pool, keeping average costs down.",
+    "explanation": "By requiring everyone to participate, the system ensures a healthy balance of contributors, preventing the 'selection' of only high-cost participants."
   },
   {
-    "question": "8. Hedging with Derivatives",
-    "content": "A derivative is a financial contract whose value is 'derived' from an underlying asset (like a stock or a commodity). Hedging is the use of derivatives to reduce the risk of price movements. For example, a farmer can use a futures contract to lock in a price for their crops months before the harvest.",
-    "description": "A baker needs to buy 5,000 bushels of wheat in six months. They are worried that the price of wheat will skyrocket. What should they do to 'hedge' this risk?",
+    "question": "8. Hedging and Futures",
+    "content": "Hedging is using financial instruments to cancel out a risk you already have. A futures contract allows a producer or consumer to lock in a price today for a transaction that will happen in the future, providing budget certainty.",
+    "description": "A coffee shop chain is worried that the price of coffee beans will double next year. What contract should they enter today to fix their future costs?",
     "options": [
-      "Buy a wheat futures contract today to lock in the price.",
-      "Sell their bakery and buy a wheat farm.",
-      "Wait until the day they need the wheat to see what the price is.",
-      "Sell a wheat futures contract today."
+      "A Futures Contract to buy coffee.",
+      "A Spot Market transaction.",
+      "A Dividend Reinvestment Plan.",
+      "A Stock Split agreement."
     ],
-    "answer": "Buy a wheat futures contract today to lock in the price.",
-    "explanation": "By buying the futures contract, the baker locks in a specific purchase price now, protecting their business from any future spikes in the cost of ingredients."
+    "answer": "A Futures Contract to buy coffee.",
+    "explanation": "The futures contract locks in the price now, so even if coffee prices double globally, the shop pays the price agreed upon today."
   },
   {
-    "question": "9. Real vs. Nominal Values",
-    "content": "Inflation reduces the purchasing power of money over time. 'Nominal' value refers to the face value of money, while 'Real' value refers to what that money can actually buy. Shiller advocates for 'indexed' financial instruments that adjust automatically for inflation to protect the real value of savings.",
-    "description": "You put $10,000 in a savings account that pays 2% interest. Over the next year, inflation is 5%. At the end of the year, what has happened to your money?",
+    "question": "9. Real vs. Nominal Returns",
+    "content": "Inflation erodes the purchasing power of money. To find your 'Real' return, you must subtract the inflation rate from your 'Nominal' (advertised) return. Shiller emphasizes that long-term investors must focus on real returns to survive.",
+    "description": "If your bank account pays 3% interest but inflation is 5%, what is happening to the actual purchasing power of your savings?",
     "options": [
-      "Your nominal wealth increased, but your real wealth decreased.",
-      "Your real wealth increased, but your nominal wealth decreased.",
+      "It is decreasing by 2% per year.",
+      "It is increasing by 3% per year.",
+      "It is staying exactly the same.",
+      "It is increasing by 8% per year."
+    ],
+    "answer": "It is decreasing by 2% per year.",
+    "explanation": "Even though you have more dollars (nominal), those dollars buy 5% less stuff. Your 'Real' return is 3% - 5% = -2%."
+  },
+  {
+    "question": "10. Overconfidence Bias",
+    "content": "Overconfidence bias leads people to believe their private information or skills are superior to the market average. This often results in excessive trading, which increases costs and lowers returns.",
+    "description": "A trader believes they can predict market turns based on 'gut feeling' and trades 50 times a day, losing most of their profit to commission fees. What bias is most likely at play?",
+    "options": [
+      "Overconfidence Bias",
+      "Anchoring Bias",
+      "Loss Aversion",
+      "The Disposition Effect"
+    ],
+    "answer": "Overconfidence Bias",
+    "explanation": "Overconfidence causes the trader to believe they have a skill (market timing) that they likely do not possess, leading to counter-productive behavior."
+  }
+]
