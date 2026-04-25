@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Power of Compound Interest",
+    "content": "Compound interest is the interest calculated on the initial principal and also on the accumulated interest of previous periods. Robert Shiller emphasizes that the 'time value of money' makes early saving crucial. Because growth is exponential rather than linear, small amounts saved in one's 20s can far outperform larger amounts saved in one's 40s.",
+    "description": "If Person A invests $10,000 at age 20 and stops at age 30, while Person B starts at age 30 and invests $10,000 every year until age 60, why might Person A still end up with more money at retirement?",
+    "options": [
+      "Because the initial investment had an extra decade to compound exponentially.",
+      "Because interest rates were higher in the past.",
+      "Because the government gives bonuses to early investors.",
+      "Because the first $10,000 invested is tax-free."
+    ],
+    "answer": "Because the initial investment had an extra decade to compound exponentially.",
+    "explanation": "The 'compounding' effect means that interest earns interest. The longer the money stays in the market, the more the 'interest on interest' dominates the total balance."
+  },
+  {
+    "question": "Life Cycle Hypothesis of Saving",
+    "content": "The Life Cycle Hypothesis suggests that individuals aim to maintain a stable level of consumption throughout their lives. This means people typically borrow when they are young (for education or housing), save during their peak earning years, and 'dissave' (spend their savings) during retirement.",
+    "description": "According to this hypothesis, at which stage of life should an individual's 'savings rate' be at its highest level?",
+    "options": [
+      "During middle age (peak career years).",
+      "During early childhood.",
+      "In the first five years of retirement.",
+      "Immediately after graduating high school."
+    ],
+    "answer": "During middle age (peak career years).",
+    "explanation": "Middle age is typically when income is highest and major expenses like education are finished, allowing for maximum accumulation before retirement."
+  },
+  {
+    "question": "The Role of Human Capital",
+    "content": "Shiller defines 'Human Capital' as the present value of all your future labor income. For most young people, their human capital is their most valuable asset. As you age, you essentially 'convert' your human capital into 'financial capital' (savings and investments).",
+    "description": "If you are a young professional with 40 years of work ahead of you, why does Shiller suggest you can afford to take higher risks in your stock portfolio?",
+    "options": [
+      "Because you have a massive 'asset' (future earnings) that isn't tied to the stock market.",
+      "Because young people are naturally better at picking stocks.",
+      "Because stocks are guaranteed to never crash for more than a year.",
+      "Because the government insures the losses of younger investors."
+    ],
+    "answer": "Because you have a massive 'asset' (future earnings) that isn't tied to the stock market.",
+    "explanation": "Since your 'Human Capital' is safe from stock market volatility, it acts as a stabilizer, allowing you to seek higher returns with your smaller pool of financial capital."
+  },
+  {
+    "question": "Defined Benefit vs. Defined Contribution",
+    "content": "A 'Defined Benefit' plan (Pension) promises a specific monthly payout for life, with the employer carrying the investment risk. A 'Defined Contribution' plan (like a 401k) specifies how much goes in, but the final payout depends on market performance, meaning the employee carries the investment risk.",
+    "description": "In a 401(k) plan, if the stock market crashes the year before an employee retires, whose retirement income is directly reduced?",
+    "options": [
+      "The employee's.",
+      "The employer's.",
+      "The government's.",
+      "The insurance company's."
+    ],
+    "answer": "The employee's.",
+    "explanation": "In defined contribution plans, the individual bears the 'investment risk.' If the market performs poorly, the individual has less money for retirement."
+  },
+  {
+    "question": "Index Funds vs. Active Management",
+    "content": "An Index Fund is a type of mutual fund or ETF that tracks a specific market index (like the S&P 500). Active management involves a fund manager trying to 'beat the market' by picking specific stocks. Research shows that due to high fees, most active managers underperform simple, low-cost index funds over the long term.",
+    "description": "Why do many financial advisors recommend low-cost S&P 500 index funds for long-term retirement savings?",
+    "options": [
+      "Because they provide broad diversification at a very low cost.",
+      "Because index funds are guaranteed to never lose value.",
+      "Because index funds pay higher dividends than individual stocks.",
+      "Because the CEO of the index fund manages the companies personally."
+    ],
+    "answer": "Because they provide broad diversification at a very low cost.",
+    "explanation": "Index funds provide exposure to hundreds of companies, reducing 'idiosyncratic risk' while keeping management fees to a minimum."
+  },
+  {
+    "question": "Annuities: Insuring Against Longevity",
+    "content": "An annuity is a financial product that provides a guaranteed stream of income, typically used by retirees to ensure they do not outlive their savings. You pay a lump sum to an insurance company, and they promise to pay you a set amount every month until you die.",
+    "description": "What is the primary 'risk' that an individual is trying to hedge against when they purchase a life annuity?",
+    "options": [
+      "Longevity risk (living longer than their savings last).",
+      "Inflation risk (prices rising too fast).",
+      "Market risk (the stock market crashing).",
+      "Default risk (the bank closing down)."
+    ],
+    "answer": "Longevity risk (living longer than their savings last).",
+    "explanation": "The fear in retirement is that you might live to 100 while your money only lasts until 85. An annuity transfers that risk to the insurance company."
+  },
+  {
+    "question": "The 'Home Bias' in Investing",
+    "content": "Home bias is the tendency of investors to invest a majority of their portfolio in domestic equities, ignoring the benefits of international diversification. Shiller notes that while people feel 'safer' investing in companies they recognize, they are actually increasing their risk by tying their wealth to a single country's economy.",
+    "description": "A Japanese investor puts 95% of their money into Japanese stocks. If the Japanese economy enters a 20-year stagnation while the rest of the world grows, what has this investor suffered from?",
+    "options": [
+      "Home Bias",
+      "Currency Arbitrage",
+      "The Disposition Effect",
+      "Market Efficiency"
+    ],
+    "answer": "Home Bias",
+    "explanation": "By failing to diversify internationally, the investor's wealth is entirely dependent on their local economy's performance."
+  },
+  {
+    "question": "Fiduciary Duty",
+    "content": "A 'Fiduciary' is a financial professional who is legally obligated to act in the best interest of their client. This is a higher standard than the 'Suitability' standard, which only requires that a recommendation be reasonable, even if it earns the advisor a higher commission.",
+    "description": "If a financial advisor recommends a product that gives them a massive commission but is slightly worse for the client than a cheaper alternative, have they fulfilled a 'Fiduciary' duty?",
+    "options": [
+      "No, because they prioritized their own gain over the client's best interest.",
+      "Yes, as long as the product doesn't lose money.",
+      "Yes, because advisors must be paid for their time.",
+      "No, because commissions are illegal in all forms of finance."
+    ],
+    "answer": "No, because they prioritized their own gain over the client's best interest.",
+    "explanation": "A fiduciary must put the client's interests first, which often means recommending the lowest-cost or highest-benefit option regardless of the advisor's pay."
+  },
+  {
+    "question": "The Value of Financial Regulation",
+    "content": "Shiller argues that while regulation can be seen as a burden, it is actually a 'public good' that creates trust. Without regulations against fraud, insider trading, and market manipulation, investors would be afraid to participate, and the cost of capital for businesses would skyrocket.",
+    "description": "What would likely happen to the interest rates companies have to pay if the government abolished all laws against financial fraud?",
+    "options": [
+      "Interest rates would rise significantly to compensate for the higher risk of being cheated.",
+      "Interest rates would drop to zero because there would be no more paperwork.",
+      "Interest rates would stay the same as they are determined by nature.",
+      "Companies would stop using money and return to bartering."
+    ],
+    "answer": "Interest rates would rise significantly to compensate for the higher risk of being cheated.",
+    "explanation": "When trust disappears, investors demand a much higher return to justify the risk that the company—or its data—might be fraudulent."
+  },
+  {
+    "question": "Finance as a 'Service' to Society",
+    "content": "In the concluding lectures, Shiller argues that finance should not be seen as a way to 'get rich quick,' but as a way to facilitate human goals—building homes, starting businesses, and securing retirement. The ultimate goal of financial innovation should be to make the world more inclusive and resilient.",
+    "description": "According to Shiller's view, what is the most important role of a 'good' financial system?",
+    "options": [
+      "To manage and allocate risk so that society can achieve its goals.",
+      "To ensure that the wealthiest people stay wealthy.",
+      "To maximize the number of trades happening every second.",
+      "To replace all government functions with private contracts."
+    ],
+    "answer": "To manage and allocate risk so that society can achieve its goals.",
+    "explanation": "Finance is a tool for stewardship. When it works well, it allows people to take the risks necessary to innovate and build a better future while protecting themselves from catastrophe."
+  }
+]
