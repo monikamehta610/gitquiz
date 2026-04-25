@@ -1,132 +1,132 @@
 [
   {
-    "question": "Commercial vs. Investment Banking",
-    "content": "Commercial banks primarily accept deposits and make loans to individuals and small businesses. Investment banks, on the other hand, focus on large-scale capital raising (IPOs, bond issuances) and mergers and acquisitions (M&A). After the 1929 crash, the Glass-Steagall Act was passed to separate these two functions to prevent banks from risking depositors' savings in speculative market activities.",
-    "description": "A local business owner wants to take out a $50,000 loan to renovate their bakery. Which type of financial institution would they typically visit for this service?",
+    "question": "The Glass-Steagall Act",
+    "content": "Passed in 1933 after the Great Depression, the Glass-Steagall Act mandated a strict separation between commercial banking (taking deposits) and investment banking (issuing securities). The goal was to prevent banks from using everyday people's savings to fund speculative, high-risk market bets. Most of these protections were removed in 1999, which some argue contributed to the 2008 financial crisis.",
+    "description": "If a bank uses the money in your personal savings account to buy risky startup stocks for its own profit, which historical law were they originally forbidden from breaking?",
     "options": [
-      "Commercial Bank",
-      "Investment Bank",
-      "Stock Exchange",
-      "Hedge Fund"
+      "The Glass-Steagall Act",
+      "The Securities Exchange Act",
+      "The Affordable Care Act",
+      "The Sherman Antitrust Act"
     ],
-    "answer": "Commercial Bank",
-    "explanation": "Commercial banks are designed for traditional lending and deposit-taking, whereas investment banks deal with complex securities and large corporate financing."
+    "answer": "The Glass-Steagall Act",
+    "explanation": "Glass-Steagall was designed specifically to create a 'wall' between your deposits and the bank's speculative investments."
+  },
+  {
+    "question": "The Federal Reserve and Money Supply",
+    "content": "The Federal Reserve (the 'Fed') is the central bank of the United States. One of its primary tools is 'Open Market Operations'—buying and selling government bonds to control the money supply. When the Fed buys bonds, it puts cash into the banking system, which usually lowers interest rates and encourages spending.",
+    "description": "If the Federal Reserve wants to slow down inflation by taking money 'out' of the economy, what action should they take in the bond market?",
+    "options": [
+      "Sell government bonds to banks.",
+      "Buy government bonds from banks.",
+      "Print more physical $100 bills.",
+      "Lower the interest rate to zero."
+    ],
+    "answer": "Sell government bonds to banks.",
+    "explanation": "By selling bonds, the Fed takes cash from the banks in exchange for the paper bonds, effectively removing that money from circulation and raising interest rates."
   },
   {
     "question": "The Role of the SEC",
-    "content": "The Securities and Exchange Commission (SEC) is the primary regulatory body for financial markets in the United States. Its mission is to protect investors, maintain fair and orderly markets, and facilitate capital formation. One of its most powerful tools is the requirement for 'Full Disclosure,' meaning companies must provide all material facts to the public before selling securities.",
-    "description": "If a public company discovers a major flaw in its product but refuses to mention it in its quarterly financial report, which regulatory body is most likely to bring an enforcement action against them?",
+    "content": "The Securities and Exchange Commission (SEC) is the 'police officer' of the financial markets. Its mission is to protect investors and ensure that markets are fair. One of its most important rules is 'Full Disclosure'—the requirement that companies must tell the public all 'material' facts about their business before they are allowed to sell stock.",
+    "description": "A company knows its main factory burned down, but they hide this information from their investors while selling new shares of stock. Which regulatory body is responsible for punishing this behavior?",
     "options": [
-      "SEC (Securities and Exchange Commission)",
+      "The SEC",
       "The Federal Reserve",
-      "The Department of Education",
-      "The World Bank"
+      "The World Bank",
+      "The IMF"
     ],
-    "answer": "SEC (Securities and Exchange Commission)",
-    "explanation": "The SEC enforces laws regarding transparency and disclosure, ensuring that companies do not withhold information that could impact an investor's decision."
+    "answer": "The SEC",
+    "explanation": "The SEC enforces laws regarding transparency; hiding major losses while selling stock is a violation of disclosure rules."
   },
   {
-    "question": "Venture Capital and the 'J-Curve'",
-    "content": "Venture Capital (VC) is a form of private equity that provides funding to early-stage, high-potential startups. VC investing follows the 'J-Curve' effect: in the early years, the portfolio often loses money as companies spend cash to grow, but the hope is that a few 'winners' will eventually provide massive returns that outweigh the many failures.",
-    "description": "A VC firm invests in 10 tech startups. Seven of them fail completely, two break even, and one becomes a billion-dollar company. Is this considered a successful or failed outcome for a typical VC fund?",
+    "question": "Fractional Reserve Banking",
+    "content": "In a fractional reserve system, banks are only required to keep a small percentage (the 'reserve') of their depositors' money in the vault. They lend out the rest to earn interest. This system allows the economy to grow by creating credit, but it also makes banks vulnerable to 'bank runs' if too many people want their cash at the same time.",
+    "description": "If you deposit $1,000 in a bank with a 10% reserve requirement, how much of your money is the bank legally allowed to lend out to other customers?",
     "options": [
-      "Successful, because the one 'home run' covers all other losses.",
-      "Failed, because the majority of the companies went bankrupt.",
-      "Failed, because they didn't achieve diversification.",
-      "Successful, because breaking even is the primary goal of VC."
+      "None of it.",
+      "Exactly $1,000.",
+      "$900",
+      "$100"
     ],
-    "answer": "Successful, because the one 'home run' covers all other losses.",
-    "explanation": "VC is a 'hits-driven' business. A single massive success (like early investment in Google or Facebook) can return the entire value of the fund multiple times over."
+    "answer": "$900",
+    "explanation": "The bank must keep $100 (10%) and can lend the remaining $900 (90%) to others."
   },
   {
-    "question": "Exchanges vs. Dark Pools",
-    "content": "A public stock exchange (like the NYSE) is a transparent marketplace where buy and sell orders are displayed. 'Dark Pools,' however, are private exchanges where large institutional investors can trade massive blocks of shares without the public seeing the price or volume until the trade is completed. This prevents 'slippage'—where the market price moves against the trader before they can finish their large order.",
-    "description": "Why would a massive pension fund prefer to sell 5 million shares of a stock in a 'Dark Pool' rather than on the public New York Stock Exchange?",
+    "question": "Bank Runs and the FDIC",
+    "content": "A bank run occurs when many depositors lose faith in a bank and try to withdraw their money simultaneously. Because of fractional reserve banking, the bank doesn't have enough cash on hand to pay everyone. To prevent this panic, the US government created the FDIC (Federal Deposit Insurance Corporation), which guarantees that your deposits are safe even if the bank fails.",
+    "description": "Why did the creation of the FDIC in 1933 almost entirely eliminate the 'mass panic' bank runs that were common in the early 20th century?",
     "options": [
-      "To avoid alerting the market and causing the price to drop before the sale is finished.",
-      "Because Dark Pools are the only place where trading is legal.",
-      "To avoid paying any taxes on the transaction.",
-      "Because public exchanges do not allow the sale of more than 100 shares."
+      "Because people knew the government would pay them back even if the bank ran out of cash.",
+      "Because the government made it illegal to withdraw money during a crisis.",
+      "Because banks were forced to keep 100% of their cash in the vault.",
+      "Because everyone stopped using paper money."
     ],
-    "answer": "To avoid alerting the market and causing the price to drop before the sale is finished.",
-    "explanation": "In a transparent market, seeing a 5-million-share sell order would cause other traders to panic and drop the price. Dark pools hide the 'intent' to sell until the deal is done."
+    "answer": "Because people knew the government would pay them back even if the bank ran out of cash.",
+    "explanation": "Deposit insurance removes the incentive to be 'first in line' during a scare, because your money is guaranteed by the government regardless of the bank's health."
   },
   {
-    "question": "Non-Profit Organizations and Endowments",
-    "content": "Non-profits often manage 'Endowments'—large pools of donated money that are invested to provide a permanent source of income. Shiller notes that these institutions must balance the need for high returns to fund their mission with the need to protect the principal for future generations, often leading to a very long-term investment horizon.",
-    "description": "A university endowment has a 'spending rate' of 5% per year. If the endowment's investments only return 2% for several years while inflation is high, what must the university do to maintain the fund's 'Real' value?",
+    "question": "Venture Capital (VC)",
+    "content": "Venture capital is a form of private equity provided to startups and small businesses that are believed to have long-term growth potential. VC investors often take a 'hands-on' role, providing guidance and joining the board of directors. It is high-risk, as most startups fail, but one 'unicorn' (a $1 billion company) can pay for all the other losses.",
+    "description": "A startup with no revenue but a great idea for a new app needs $5 million to build its team. Which type of financial institution is most likely to provide this high-risk funding?",
     "options": [
-      "Cut spending or seek new donations to prevent the fund from shrinking.",
-      "Spend more money to stimulate the economy.",
-      "Move all money into a 0% interest checking account.",
-      "Nothing, as endowments are immune to inflation."
+      "A Commercial Bank",
+      "A Venture Capital firm",
+      "A Credit Union",
+      "The US Treasury"
     ],
-    "answer": "Cut spending or seek new donations to prevent the fund from shrinking.",
-    "explanation": "If the spending exceeds the investment return (especially after accounting for inflation), the 'Real' value of the endowment will erode over time."
+    "answer": "A Venture Capital firm",
+    "explanation": "Commercial banks rarely lend to companies without collateral or profit; VC firms specialize in betting on high-potential, early-stage ideas."
   },
   {
-    "question": "The Principal-Agent Problem in Corporations",
-    "content": "In most public companies, the owners (shareholders) do not run the business. They hire agents (managers/CEOs) to do it for them. The 'Principal-Agent Problem' arises when the agent's interests don't align with the principal's—for example, a CEO focusing on short-term stock price to get a bonus rather than long-term stability.",
-    "description": "A company's Board of Directors decides to pay the CEO mostly in 'Restricted Stock Units' that cannot be sold for five years. Which problem is this policy trying to solve?",
+    "question": "Credit Rating Agencies",
+    "content": "Agencies like Moody’s and Standard & Poor’s (S&P) provide 'grades' on bonds based on the likelihood that the borrower will pay the money back. An 'AAA' rating is the safest, while 'Junk' bonds have low ratings and high risk. These agencies are critical because they help investors decide where to safely put their money.",
+    "description": "If a city's credit rating drops from 'AAA' to 'B' due to bad management, what will likely happen to the interest rate that city must pay when it borrows money to build a new bridge?",
     "options": [
-      "The Principal-Agent Problem",
-      "Adverse Selection",
-      "Systemic Risk",
-      "Hyperinflation"
+      "The interest rate will stay the same.",
+      "The interest rate will decrease.",
+      "The interest rate will increase.",
+      "The city will be banned from borrowing forever."
     ],
-    "answer": "The Principal-Agent Problem",
-    "explanation": "By forcing the CEO to hold stock for five years, the Board aligns the CEO's personal wealth with the long-term health and stock price of the company, benefiting the shareholders."
+    "answer": "The interest rate will increase.",
+    "explanation": "A lower credit rating means higher risk. Investors will only lend money to a 'risky' borrower if they are paid a higher interest rate to compensate for that risk."
   },
   {
-    "question": "Social Security and Intergenerational Equity",
-    "content": "Social Security is often described as a 'Pay-as-you-go' system. The taxes paid by current workers are not saved in a personal account; they are immediately used to pay benefits to current retirees. This relies on 'Intergenerational Equity'—the idea that the next generation will be there to support the current one when they retire.",
-    "description": "What happens to a 'Pay-as-you-go' social security system if the number of workers drops significantly while the number of retirees increases?",
+    "question": "Hedge Funds",
+    "content": "Hedge funds are private investment partnerships that use a wide variety of complex strategies to earn a return for their investors. Unlike mutual funds, which are for the general public, hedge funds are typically only open to 'accredited' (wealthy) investors and are allowed to take much larger risks, including heavy borrowing and short selling.",
+    "description": "Why are hedge funds generally allowed to use much riskier strategies than the mutual funds found in an average person's retirement account?",
     "options": [
-      "The system faces a funding crisis and must either raise taxes or cut benefits.",
-      "The system automatically prints more money without inflation.",
-      "The retirees are forced to return to work immediately.",
-      "Nothing, because the money was saved in a vault years ago."
+      "Because their investors are assumed to be wealthy enough to handle the loss.",
+      "Because hedge funds are owned by the government.",
+      "Because hedge funds only invest in gold.",
+      "Because it is illegal for hedge funds to lose money."
     ],
-    "answer": "The system faces a funding crisis and must either raise taxes or cut benefits.",
-    "explanation": "Because current workers fund current retirees, a shrinking workforce (lower birth rates) creates a deficit in the amount of cash available to pay out promised benefits."
-  },
-  {
-    "question": "Corporate Social Responsibility (CSR)",
-    "content": "CSR is the idea that a corporation should be accountable not just to its shareholders (profit), but also to its 'stakeholders' (employees, customers, the environment, and the community). Professor Shiller argues that finance is a 'service' to society and that ethical behavior is essential for the long-term legitimacy of financial markets.",
-    "description": "A company decides to spend $10 million to reduce its carbon footprint, even though it is not legally required to do so. This is an example of focusing on:",
-    "options": [
-      "Stakeholder Theory",
-      "Pure Profit Maximization",
-      "Capital Asset Pricing Model",
-      "Efficient Market Hypothesis"
-    ],
-    "answer": "Stakeholder Theory",
-    "explanation": "Stakeholder theory argues that a company should create value for the community and environment, not just the people who own the stock."
+    "answer": "Because their investors are assumed to be wealthy enough to handle the loss.",
+    "explanation": "Regulators assume that high-net-worth 'sophisticated' investors don't need the same protections as the general public."
   },
   {
     "question": "Systemic Risk and 'Too Big to Fail'",
-    "content": "Systemic risk is the risk of a collapse of an entire financial system or market, as opposed to risk associated with any one individual entity. 'Too Big to Fail' refers to the idea that some financial institutions are so large and interconnected that their failure would be catastrophic for the economy, forcing the government to bail them out.",
-    "description": "During the 2008 financial crisis, the government provided billions of dollars to large banks. What was the primary justification for this action?",
+    "content": "Systemic risk is the danger that the failure of one large financial institution will trigger a 'domino effect,' taking down the entire global economy. This led to the concept of 'Too Big to Fail,' where the government feels forced to bail out massive banks to prevent a total collapse.",
+    "description": "During the 2008 crisis, the US government used taxpayer money to save a few massive banks from bankruptcy. What was the primary justification for this controversial move?",
     "options": [
-      "To prevent systemic risk from causing a total collapse of the global economy.",
-      "To reward the bank executives for their performance.",
-      "To encourage people to stop using credit cards.",
-      "Because the government is legally required to pay for all bank losses."
+      "To prevent systemic risk from destroying the entire financial system.",
+      "To reward the bank CEOs for their hard work.",
+      "Because the banks promised to never charge fees again.",
+      "Because the government wanted to own the banks permanently."
     ],
-    "answer": "To prevent systemic risk from causing a total collapse of the global economy.",
-    "explanation": "The fear was that if these massive, interconnected banks failed, they would take down every other business and individual's savings with them."
+    "answer": "To prevent systemic risk from destroying the entire financial system.",
+    "explanation": "The fear was that if those specific banks failed, every other business, pension fund, and bank would fail along with them."
   },
   {
-    "question": "The Role of Credit Rating Agencies",
-    "content": "Credit rating agencies (like Moody's or S&P) provide 'grades' on the riskiness of bonds. An 'AAA' rating means the bond is very safe, while a 'Junk' rating means there is a high risk of default. These agencies are critical for helping investors decide where to put their money, but they faced criticism in 2008 for giving high ratings to risky mortgage-backed securities.",
-    "description": "If a city wants to build a new bridge and issues bonds to pay for it, why would they want to achieve a high credit rating from an agency?",
+    "question": "The 'Lemon' Problem in Banking",
+    "content": "In finance, as in the used car market, there is 'asymmetric information.' A borrower knows more about their ability to pay back a loan than the bank does. This can lead to the 'Lemon' problem, where banks charge high interest rates because they assume the worst, which drives away the 'good' borrowers and leaves only the 'bad' ones.",
+    "description": "A bank offers a loan with a very high interest rate and no credit check. Who is most likely to apply for this loan?",
     "options": [
-      "To lower the interest rate they have to pay to investors.",
-      "To make the bridge look more attractive to tourists.",
-      "To avoid having to pay back the principal.",
-      "To ensure that only local citizens can buy the bonds."
+      "People who know they have a high risk of failing to pay back.",
+      "Wealthy people who want to save money.",
+      "People with perfect credit scores.",
+      "The bank's own employees."
     ],
-    "answer": "To lower the interest rate they have to pay to investors.",
-    "explanation": "A higher rating means lower risk. Investors are willing to accept a lower interest rate in exchange for the safety of an 'AAA' or 'AA' rated bond."
+    "answer": "People who know they have a high risk of failing to pay back.",
+    "explanation": "This is adverse selection; the 'bad' risks are the ones most attracted to a loan that doesn't screen for quality."
   }
 ]
