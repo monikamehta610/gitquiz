@@ -1,63 +1,112 @@
 [
   {
-    "question": "The CAPM and Systematic Risk",
-    "description": "The Capital Asset Pricing Model (CAPM) separates risk into two categories: Systematic Risk and Idiosyncratic Risk. Systematic risk (Market Risk) is inherent to the entire market, influenced by things like interest rate changes, recessions, or wars. It cannot be avoided. Idiosyncratic risk is specific to an individual company. The CAPM formula suggests that the expected return of an asset is based solely on its 'Beta'—a measure of how much the asset moves in relation to the overall market. If you hold a perfectly diversified portfolio, your idiosyncratic risk is zero, and your returns depend entirely on your exposure to the broader market's volatility.",
+    "question": "1. Risk and Probability",
+    "content": "In financial markets, risk is often measured by the variance or standard deviation of returns. Robert Shiller highlights that humans often struggle to grasp 'low-probability, high-impact' events (Black Swans). To manage this, we use the Law of Large Numbers, which suggests that as we increase the number of independent observations, the average result stabilizes. This is the bedrock of the insurance industry.",
+    "description": "An insurance company is looking to provide flight cancellation insurance. They can either insure 10 people for $1 million each or 1,000,000 people for $10 each. According to the Law of Large Numbers, which scenario is safer for the company?",
     "options": [
-      "The stock has a Beta of 0, meaning it is unaffected by market swings.",
-      "The stock has a Beta of 1.5, meaning it is more volatile than the market.",
-      "The stock has a Beta of 0.5, meaning it is less volatile than the market.",
-      "The stock has a negative Beta, meaning it moves opposite to the market."
+      "Insuring 1,000,000 people for $10 each.",
+      "Insuring 10 people for $1 million each.",
+      "Both are equally risky because the total coverage is $10 million.",
+      "Neither, insurance companies do not use probability."
     ],
-    "answer": "The stock has a Beta of 1.5, meaning it is more volatile than the market.",
-    "explanation": "A Beta greater than 1 indicates that the security's price is more volatile than the market. A Beta of 1.5 implies that if the market rises by 10%, the stock is expected to rise by 15%; conversely, if the market falls by 10%, the stock falls by 15%."
+    "answer": "Insuring 1,000,000 people for $10 each.",
+    "explanation": "With a massive pool of 1 million people, the 'idiosyncratic' risks of individual cancellations cancel each other out, making the total payout highly predictable and stable."
   },
   {
-    "question": "Behavioral Finance: The Prospect Theory",
-    "description": "Traditional economics assumes humans are 'rational actors' (Homo Economicus). However, Robert Shiller and other behavioral economists argue that humans suffer from cognitive biases. A primary concept is 'Prospect Theory,' developed by Kahneman and Tversky, which suggests that people value gains and losses differently. Specifically, the pain of losing is psychologically twice as powerful as the joy of gaining. This leads to 'irrational' financial decisions, such as refusing to sell a losing stock because realizing the loss is too painful, or selling a winning stock too early to 'lock in' a small feeling of success.",
+    "question": "2. Risk Pooling and Diversification",
+    "content": "Diversification is the strategy of combining assets that do not move in perfect lockstep. In finance, this means holding a 'portfolio' of assets. By pooling risks that are uncorrelated, the overall volatility of the portfolio decreases. This is why investors are advised to hold a mix of stocks, bonds, and other asset classes.",
+    "description": "You decide to diversify your portfolio. You currently own stock in an airline company. To achieve true diversification and reduce risk, which of the following would be the most effective addition?",
+    "options": [
+      "An oil company stock.",
+      "Another airline company stock.",
+      "An internet service provider stock.",
+      "An aircraft manufacturing stock."
+    ],
+    "answer": "An internet service provider stock.",
+    "explanation": "Airlines, oil, and aircraft manufacturing are highly correlated (e.g., fuel prices affect them all). An internet provider is less likely to be affected by the same specific economic shocks as the travel industry."
+  },
+  {
+    "question": "3. The Concept of Moral Hazard",
+    "content": "Moral hazard occurs after a contract is signed. It happens when the insured party changes their behavior and takes more risks because they know the financial consequences are covered by the insurer. This 'hidden action' makes insurance more expensive for everyone in the pool.",
+    "description": "A business owner recently purchased a very comprehensive fire insurance policy that covers 100% of all potential losses. Afterward, they decide to stop paying for a night security guard to save money. This is an example of:",
+    "options": [
+      "Adverse Selection",
+      "Moral Hazard",
+      "Systematic Risk",
+      "Diversification"
+    ],
+    "answer": "Moral Hazard",
+    "explanation": "The owner is taking a higher risk (removing security) specifically because the insurance policy has removed their personal financial incentive to prevent a fire."
+  },
+  {
+    "question": "4. Adverse Selection and Information Asymmetry",
+    "content": "Adverse selection happens *before* a contract is signed. It arises from 'asymmetric information,' where the buyer knows more about their risk level than the seller. If an insurance company sets one average price, only high-risk individuals (who know they will benefit) will buy it, while low-risk individuals will opt out.",
+    "description": "A health insurance company offers a policy with no medical exam. They find that a disproportionate number of people with pre-existing conditions are signing up, while marathon runners are not. What problem is the company facing?",
+    "options": [
+      "Adverse Selection",
+      "Moral Hazard",
+      "Diversification",
+      "Liquidity Risk"
+    ],
+    "answer": "Adverse Selection",
+    "explanation": "The 'high-risk' individuals are selecting themselves into the plan because they have private information about their health that the company hasn't screened for."
+  },
+  {
+    "question": "5. Prospect Theory: Gains vs. Losses",
+    "content": "Traditional finance assumes people are rational. Behavioral finance, however, uses 'Prospect Theory' to show that we are 'Loss Averse.' Studies show that the pain of losing $1,000 is significantly more intense than the joy of winning $1,000. This leads to irrational holding of losing investments.",
+    "description": "An investor sees their stock drop from $50 to $30. Even though the company's outlook is terrible, they refuse to sell because they don't want to 'realize' the loss. This behavior is driven by:",
     "options": [
       "Loss Aversion",
-      "Overconfidence Bias",
-      "Anchoring",
-      "Representativeness Heuristic"
+      "The Wealth Effect",
+      "Rational Expectations",
+      "Efficient Markets"
     ],
     "answer": "Loss Aversion",
-    "explanation": "Loss Aversion is the specific psychological phenomenon where the desire to avoid losses is stronger than the desire to achieve equivalent gains, often leading to suboptimal holding periods for investments."
+    "explanation": "Loss aversion causes investors to hold onto 'losers' for too long in the psychological hope that they will at least break even, avoiding the sting of a permanent loss."
   },
   {
-    "question": "The Role of Investment Banks & Underwriting",
-    "description": "Investment banks act as intermediaries between companies that need capital and investors who have money. Their most critical function is 'Underwriting' during an Initial Public Offering (IPO). In a 'Firm Commitment' underwriting agreement, the investment bank buys all the shares from the company at a set price and then resells them to the public. This shifts the risk of the shares not selling from the company to the bank. The bank makes money on the 'spread'—the difference between what they paid the company and the price they charge the public.",
-    "output": "Case Study: A tech startup wants to go public. They hire a bank that agrees to buy 1 million shares at $20 each. On the day of the IPO, the market is cold, and the bank can only sell the shares for $18.",
+    "question": "6. The Role of the Underwriter",
+    "content": "In the context of insurance or IPOs, an underwriter is a financial expert who evaluates risk. They determine whether a risk is worth taking and what price (premium) should be charged. They act as the 'gatekeepers' of financial stability by ensuring that risks are priced accurately based on data.",
+    "description": "When a large bank 'underwrites' a new corporate bond issue, they are essentially doing what for the corporation?",
     "options": [
-      "The startup loses $2 million.",
-      "The Investment Bank loses $2 million.",
-      "The IPO is cancelled and no money changes hands.",
-      "The government covers the $2 million loss."
+      "Guaranteeing the company will never go bankrupt.",
+      "Providing a guarantee that the company will receive the needed funds at a certain price.",
+      "Managing the day-to-day manufacturing of the company.",
+      "Eliminating all systematic risk from the company's future."
     ],
-    "answer": "The Investment Bank loses $2 million.",
-    "explanation": "Under a 'Firm Commitment' agreement, the bank has already paid the company. If the market price drops below the purchase price, the bank bears the loss, illustrating the risk they take on as underwriters."
+    "answer": "Providing a guarantee that the company will receive the needed funds at a certain price.",
+    "explanation": "The underwriter takes on the market risk. They buy the securities from the company and take the responsibility of selling them to investors."
   },
   {
-    "question": "Real Estate and Diversification",
-    "description": "Real estate is a major asset class, but it differs from stocks in 'Liquidity' and 'Information Symmetry.' Professor Shiller notes that housing is often an individual's largest investment, which actually violates the principle of diversification because most of their wealth is tied to one single address in one specific city. If the local economy fails, the individual loses their job and their home value simultaneously. Financial innovations like REITs (Real Estate Investment Trusts) allow people to invest in the real estate market with more liquidity and better diversification across many properties.",
+    "question": "7. Social Insurance and Compulsory Participation",
+    "content": "Social insurance (like Social Security or National Health Care) is distinct from private insurance because it is often mandatory. Professor Shiller explains that making participation compulsory is the only way to truly solve the 'Adverse Selection' problem, as it forces low-risk and high-risk people into the same pool.",
+    "description": "Why does the government usually make 'Social Security' or national pension schemes mandatory for all workers rather than optional?",
     "options": [
-      "Concentration Risk",
-      "Systemic Risk",
-      "Arbitrage Risk",
-      "Inflation Risk"
+      "To ensure the insurance pool doesn't collapse due to only high-risk people joining.",
+      "To increase the complexity of the tax code.",
+      "To prevent people from investing in the stock market.",
+      "To encourage moral hazard among workers."
     ],
-    "answer": "Concentration Risk",
-    "explanation": "By putting a huge percentage of their net worth into a single physical asset (one house), the owner faces Concentration Risk. This is the opposite of diversification."
+    "answer": "To ensure the insurance pool doesn't collapse due to only high-risk people joining.",
+    "explanation": "Mandatory participation prevents 'adverse selection,' ensuring that the healthy and young contribute to the system, which supports the elderly and sick."
   },
   {
-    "question": "Corporate Governance and Agency Problems",
-    "description": "In a modern corporation, there is a 'Separation of Ownership and Control.' The owners (shareholders) are not the ones running the company (management). This creates the 'Agency Problem' or 'Principal-Agent Problem,' where managers might make decisions that benefit themselves (like buying a private jet) rather than the shareholders (like paying a dividend). Corporate governance mechanisms, such as Board of Directors and executive stock options, are designed to align the interests of the managers with those of the owners.",
+    "question": "8. Hedging with Derivatives",
+    "content": "A derivative is a financial contract whose value is 'derived' from an underlying asset (like a stock or a commodity). Hedging is the use of derivatives to reduce the risk of price movements. For example, a farmer can use a futures contract to lock in a price for their crops months before the harvest.",
+    "description": "A baker needs to buy 5,000 bushels of wheat in six months. They are worried that the price of wheat will skyrocket. What should they do to 'hedge' this risk?",
     "options": [
-      "Managers taking on a high-risk project that could bankrupt the company but pay them a huge bonus.",
-      "Managers cutting their own salaries to prevent employee layoffs.",
-      "Shareholders voting to replace the Board of Directors.",
-      "The company hiring an external auditor to check the books."
+      "Buy a wheat futures contract today to lock in the price.",
+      "Sell their bakery and buy a wheat farm.",
+      "Wait until the day they need the wheat to see what the price is.",
+      "Sell a wheat futures contract today."
     ],
-    "answer": "Managers taking on a high-risk project that could bankrupt the company but pay them a huge bonus.",
-    "explanation": "This is a classic Agency Problem where the manager's personal incentive (the bonus) outweighs their duty to protect the long-term value of the company for the owners."
-  }
-]
+    "answer": "Buy a wheat futures contract today to lock in the price.",
+    "explanation": "By buying the futures contract, the baker locks in a specific purchase price now, protecting their business from any future spikes in the cost of ingredients."
+  },
+  {
+    "question": "9. Real vs. Nominal Values",
+    "content": "Inflation reduces the purchasing power of money over time. 'Nominal' value refers to the face value of money, while 'Real' value refers to what that money can actually buy. Shiller advocates for 'indexed' financial instruments that adjust automatically for inflation to protect the real value of savings.",
+    "description": "You put $10,000 in a savings account that pays 2% interest. Over the next year, inflation is 5%. At the end of the year, what has happened to your money?",
+    "options": [
+      "Your nominal wealth increased, but your real wealth decreased.",
+      "Your real wealth increased, but your nominal wealth decreased.",
