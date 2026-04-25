@@ -1,0 +1,132 @@
+[
+  {
+    "question": "1. The Structure of Nucleotides",
+    "content": "Nucleic acids, DNA and RNA, are polymers made of subunits called nucleotides. Each nucleotide consists of three distinct components: a pentose sugar, a phosphate group, and a nitrogenous base. These components are linked together via condensation reactions to form a strong backbone.",
+    "description": "Which part of the nucleotide structure is responsible for carrying the genetic 'code' and varies between the four types of DNA nucleotides?",
+    "options": [
+      "The Nitrogenous Base.",
+      "The Phosphate Group.",
+      "The Deoxyribose Sugar.",
+      "The Phosphodiester Bond."
+    ],
+    "answer": "The Nitrogenous Base.",
+    "explanation": "While the sugar and phosphate form the structural backbone, the sequence of the four nitrogenous bases (A, T, C, G) encodes the genetic information."
+  },
+  {
+    "question": "2. Phosphodiester Bond Formation",
+    "content": "Nucleotides link together to form a polymer chain. The phosphate group of one nucleotide attaches to the 3' carbon of the pentose sugar of the next nucleotide. This creates a covalent bond known as a phosphodiester bond, resulting in a 5' to 3' directionality in the strand.",
+    "description": "In a single strand of DNA, what specific components are connected to form the 'backbone' of the molecule?",
+    "options": [
+      "Alternating sugar and phosphate groups.",
+      "Complementary nitrogenous bases.",
+      "Pairs of deoxyribose sugars.",
+      "Hydrogen bonds between phosphates."
+    ],
+    "answer": "Alternating sugar and phosphate groups.",
+    "explanation": "The sugar-phosphate backbone is held together by strong covalent phosphodiester bonds, providing structural stability to the genetic code."
+  },
+  {
+    "question": "3. DNA vs. RNA: Pentose Sugars",
+    "content": "One of the primary differences between DNA and RNA is the type of pentose sugar used. DNA contains deoxyribose, while RNA contains ribose. The difference lies in a single oxygen atom on the 2' carbon, which significantly affects the molecule's stability and role.",
+    "description": "How does the chemical structure of the sugar in RNA differ from the sugar in DNA?",
+    "options": [
+      "Ribose has a hydroxyl (-OH) group on the 2' carbon, while deoxyribose has a hydrogen (-H).",
+      "Deoxyribose has an extra oxygen atom compared to ribose.",
+      "Ribose is a hexose sugar, while deoxyribose is a pentose sugar.",
+      "RNA uses a phosphate-free sugar molecule."
+    ],
+    "answer": "Ribose has a hydroxyl (-OH) group on the 2' carbon, while deoxyribose has a hydrogen (-H).",
+    "explanation": "The 'deoxy' in deoxyribose indicates it is 'missing' an oxygen atom at the 2' position, making DNA more chemically stable than RNA."
+  },
+  {
+    "question": "4. Nitrogenous Base Pairing",
+    "content": "DNA is double-stranded, held together by hydrogen bonds between complementary base pairs. Adenine (A) always pairs with Thymine (T), and Cytosine (C) always pairs with Guanine (G). This ensures that the two strands are complementary to each other.",
+    "description": "If a sample of double-stranded DNA is found to contain 20% Adenine, what percentage of the sample must be Cytosine?",
+    "options": [
+      "30%",
+      "20%",
+      "80%",
+      "40%"
+    ],
+    "answer": "30%",
+    "explanation": "If A is 20%, then T must be 20% (total 40%). The remaining 60% must be split equally between C and G, resulting in 30% Cytosine."
+  },
+  {
+    "question": "5. Antiparallel Strands",
+    "content": "The two strands of a DNA double helix are 'antiparallel.' This means they run in opposite directions alongside each other: one strand runs from 5' to 3', while the other runs from 3' to 5'. This orientation is essential for DNA replication and transcription.",
+    "description": "What does the '5 prime' (5') end of a DNA strand specifically refer to?",
+    "options": [
+      "The end with a free phosphate group attached to the number 5 carbon of the sugar.",
+      "The end with a free hydroxyl group attached to the number 5 carbon.",
+      "The side of the strand that contains only Adenine and Thymine.",
+      "The fifth nucleotide in a repeating genetic sequence."
+    ],
+    "answer": "The end with a free phosphate group attached to the number 5 carbon of the sugar.",
+    "explanation": "The 5' end terminates with a phosphate group, whereas the 3' end terminates with a hydroxyl group on the third carbon."
+  },
+  {
+    "question": "6. Watson and Crick's Model",
+    "content": "The discovery of the DNA double helix model by Watson and Crick was based on experimental data from others, including Rosalind Franklin’s X-ray diffraction patterns. Their model explained how DNA could be replicated and how it could carry vast amounts of information.",
+    "description": "Which piece of evidence from Rosalind Franklin was most critical for Watson and Crick to conclude that DNA was a double helix of constant width?",
+    "options": [
+      "X-ray diffraction patterns showing a cross-shaped pattern.",
+      "The discovery of the phosphodiester bond.",
+      "Chemical analysis of the ratio of A to T.",
+      "Microscopic images of the nucleus during mitosis."
+    ],
+    "answer": "X-ray diffraction patterns showing a cross-shaped pattern.",
+    "explanation": "Franklin's 'Photo 51' indicated a helical structure with specific dimensions that allowed Watson and Crick to build their scale model."
+  },
+  {
+    "question": "7. RNA Types and Functions",
+    "content": "Unlike DNA, RNA is usually single-stranded and shorter. There are three main types: messenger RNA (mRNA), transfer RNA (tRNA), and ribosomal RNA (rRNA). Each plays a unique role in the central dogma of molecular biology: DNA → RNA → Protein.",
+    "description": "Which type of RNA is responsible for carrying the genetic message from the nucleus to the ribosome?",
+    "options": [
+      "mRNA",
+      "tRNA",
+      "rRNA",
+      "siRNA"
+    ],
+    "answer": "mRNA",
+    "explanation": "mRNA acts as a transient intermediate that 'transcribes' the code from the DNA and carries it to the site of protein synthesis."
+  },
+  {
+    "question": "8. Nucleosome Structure",
+    "content": "In eukaryotes, DNA is associated with proteins called histones to form nucleosomes. A nucleosome consists of DNA wrapped twice around a core of eight histone proteins. This helps in supercoiling the DNA, which is necessary to fit the long molecule into a tiny nucleus.",
+    "description": "What is the primary functional advantage of DNA supercoiling into nucleosomes?",
+    "options": [
+      "It allows for efficient storage and protection of DNA within the nucleus.",
+      "It makes the DNA strands easier to separate during replication.",
+      "It prevents the formation of mutations from UV light.",
+      "It allows the DNA to be used as an energy source for the cell."
+    ],
+    "answer": "It allows for efficient storage and protection of DNA within the nucleus.",
+    "explanation": "Supercoiling via nucleosomes compacts the DNA significantly and helps regulate which genes are accessible for transcription."
+  },
+  {
+    "question": "9. Hydrogen Bonding Specificity",
+    "content": "The stability of the DNA double helix is maintained by hydrogen bonds between bases. Adenine and Thymine form two hydrogen bonds, while Cytosine and Guanine form three. This difference in bonding strength contributes to the melting temperature of DNA.",
+    "description": "Why does a DNA sequence with a high G-C content require more energy (higher temperature) to separate into single strands?",
+    "options": [
+      "G-C pairs have three hydrogen bonds, making them stronger than A-T pairs.",
+      "G-C pairs are larger and take up more physical space in the helix.",
+      "The sugar-phosphate backbone is thicker in G-C rich regions.",
+      "Guanine forms covalent bonds with Cytosine across the strands."
+    ],
+    "answer": "G-C pairs have three hydrogen bonds, making them stronger than A-T pairs.",
+    "explanation": "The extra hydrogen bond in G-C pairs provides more intermolecular attraction, requiring more thermal energy to break the strands apart."
+  },
+  {
+    "question": "10. The Universal Nature of Nucleic Acids",
+    "content": "The genetic code is described as universal because almost every organism uses the same nucleic acids and the same 'language' to translate sequences into proteins. This shared chemistry is powerful evidence for the common ancestry of all life on Earth.",
+    "description": "Which of the following nitrogenous bases is found in RNA but NOT in DNA?",
+    "options": [
+      "Uracil",
+      "Thymine",
+      "Adenine",
+      "Guanine"
+    ],
+    "answer": "Uracil",
+    "explanation": "In RNA, Uracil replaces Thymine and serves as the complementary partner to Adenine."
+  }
+]
