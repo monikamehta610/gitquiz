@@ -1,0 +1,63 @@
+[
+  {
+    "question": "The CAPM and Systematic Risk",
+    "description": "The Capital Asset Pricing Model (CAPM) separates risk into two categories: Systematic Risk and Idiosyncratic Risk. Systematic risk (Market Risk) is inherent to the entire market, influenced by things like interest rate changes, recessions, or wars. It cannot be avoided. Idiosyncratic risk is specific to an individual company. The CAPM formula suggests that the expected return of an asset is based solely on its 'Beta'—a measure of how much the asset moves in relation to the overall market. If you hold a perfectly diversified portfolio, your idiosyncratic risk is zero, and your returns depend entirely on your exposure to the broader market's volatility.",
+    "options": [
+      "The stock has a Beta of 0, meaning it is unaffected by market swings.",
+      "The stock has a Beta of 1.5, meaning it is more volatile than the market.",
+      "The stock has a Beta of 0.5, meaning it is less volatile than the market.",
+      "The stock has a negative Beta, meaning it moves opposite to the market."
+    ],
+    "answer": "The stock has a Beta of 1.5, meaning it is more volatile than the market.",
+    "explanation": "A Beta greater than 1 indicates that the security's price is more volatile than the market. A Beta of 1.5 implies that if the market rises by 10%, the stock is expected to rise by 15%; conversely, if the market falls by 10%, the stock falls by 15%."
+  },
+  {
+    "question": "Behavioral Finance: The Prospect Theory",
+    "description": "Traditional economics assumes humans are 'rational actors' (Homo Economicus). However, Robert Shiller and other behavioral economists argue that humans suffer from cognitive biases. A primary concept is 'Prospect Theory,' developed by Kahneman and Tversky, which suggests that people value gains and losses differently. Specifically, the pain of losing is psychologically twice as powerful as the joy of gaining. This leads to 'irrational' financial decisions, such as refusing to sell a losing stock because realizing the loss is too painful, or selling a winning stock too early to 'lock in' a small feeling of success.",
+    "options": [
+      "Loss Aversion",
+      "Overconfidence Bias",
+      "Anchoring",
+      "Representativeness Heuristic"
+    ],
+    "answer": "Loss Aversion",
+    "explanation": "Loss Aversion is the specific psychological phenomenon where the desire to avoid losses is stronger than the desire to achieve equivalent gains, often leading to suboptimal holding periods for investments."
+  },
+  {
+    "question": "The Role of Investment Banks & Underwriting",
+    "description": "Investment banks act as intermediaries between companies that need capital and investors who have money. Their most critical function is 'Underwriting' during an Initial Public Offering (IPO). In a 'Firm Commitment' underwriting agreement, the investment bank buys all the shares from the company at a set price and then resells them to the public. This shifts the risk of the shares not selling from the company to the bank. The bank makes money on the 'spread'—the difference between what they paid the company and the price they charge the public.",
+    "output": "Case Study: A tech startup wants to go public. They hire a bank that agrees to buy 1 million shares at $20 each. On the day of the IPO, the market is cold, and the bank can only sell the shares for $18.",
+    "options": [
+      "The startup loses $2 million.",
+      "The Investment Bank loses $2 million.",
+      "The IPO is cancelled and no money changes hands.",
+      "The government covers the $2 million loss."
+    ],
+    "answer": "The Investment Bank loses $2 million.",
+    "explanation": "Under a 'Firm Commitment' agreement, the bank has already paid the company. If the market price drops below the purchase price, the bank bears the loss, illustrating the risk they take on as underwriters."
+  },
+  {
+    "question": "Real Estate and Diversification",
+    "description": "Real estate is a major asset class, but it differs from stocks in 'Liquidity' and 'Information Symmetry.' Professor Shiller notes that housing is often an individual's largest investment, which actually violates the principle of diversification because most of their wealth is tied to one single address in one specific city. If the local economy fails, the individual loses their job and their home value simultaneously. Financial innovations like REITs (Real Estate Investment Trusts) allow people to invest in the real estate market with more liquidity and better diversification across many properties.",
+    "options": [
+      "Concentration Risk",
+      "Systemic Risk",
+      "Arbitrage Risk",
+      "Inflation Risk"
+    ],
+    "answer": "Concentration Risk",
+    "explanation": "By putting a huge percentage of their net worth into a single physical asset (one house), the owner faces Concentration Risk. This is the opposite of diversification."
+  },
+  {
+    "question": "Corporate Governance and Agency Problems",
+    "description": "In a modern corporation, there is a 'Separation of Ownership and Control.' The owners (shareholders) are not the ones running the company (management). This creates the 'Agency Problem' or 'Principal-Agent Problem,' where managers might make decisions that benefit themselves (like buying a private jet) rather than the shareholders (like paying a dividend). Corporate governance mechanisms, such as Board of Directors and executive stock options, are designed to align the interests of the managers with those of the owners.",
+    "options": [
+      "Managers taking on a high-risk project that could bankrupt the company but pay them a huge bonus.",
+      "Managers cutting their own salaries to prevent employee layoffs.",
+      "Shareholders voting to replace the Board of Directors.",
+      "The company hiring an external auditor to check the books."
+    ],
+    "answer": "Managers taking on a high-risk project that could bankrupt the company but pay them a huge bonus.",
+    "explanation": "This is a classic Agency Problem where the manager's personal incentive (the bonus) outweighs their duty to protect the long-term value of the company for the owners."
+  }
+]
