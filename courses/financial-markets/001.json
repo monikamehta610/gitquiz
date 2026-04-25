@@ -1,132 +1,132 @@
 [
   {
-    "question": "1. Risk and Probability",
-    "content": "In financial markets, risk is measured by the variance of returns. Robert Shiller highlights that humans often struggle to grasp 'low-probability, high-impact' events (Black Swans). To manage this, the insurance industry relies on the Law of Large Numbers, which suggests that as the number of independent observations increases, the average result becomes highly predictable.",
-    "description": "If an insurance company chooses to insure 1,000,000 people for a small fee rather than 10 people for a massive fee, why is the larger pool considered 'safer' for the company's financial stability?",
+    "question": "The Law of Large Numbers",
+    "content": "The Law of Large Numbers is a theorem that describes the result of performing the same experiment a large number of times. According to the law, the average of the results obtained from a large number of trials should be close to the expected value and will tend to become closer as more trials are performed. This is the mathematical cornerstone that allows insurance companies to predict total claims and set stable premiums.",
+    "description": "A new insurance startup decides to insure only 50 local homeowners against fire. A major competitor insures 500,000 homeowners across the country. Why is the startup at a much higher risk of total financial collapse?",
     "options": [
-      "Because the Law of Large Numbers makes the total payout highly predictable.",
-      "Because insuring more people always guarantees a higher profit margin.",
-      "Because 1 million people are less likely to have accidents than 10 people.",
-      "Because the government provides subsidies for larger insurance pools."
+      "Because they don't have enough 'trials' to make the average loss predictable.",
+      "Because small companies are legally required to pay higher claims.",
+      "Because fire only happens to people who use small insurance companies.",
+      "Because 50 people are more likely to talk to each other and commit fraud."
     ],
-    "answer": "Because the Law of Large Numbers makes the total payout highly predictable.",
-    "explanation": "With a massive pool, individual 'idiosyncratic' risks cancel each other out, allowing the company to calculate its expected losses with mathematical certainty."
+    "answer": "Because they don't have enough 'trials' to make the average loss predictable.",
+    "explanation": "With only 50 people, one single fire can wipe out all the premiums collected. With 500,000 people, the 'luck' of individual cases averages out to a predictable percentage."
   },
   {
-    "question": "2. Risk Pooling and Diversification",
-    "content": "Diversification is the strategy of combining assets that do not move in perfect lockstep. By pooling risks that are uncorrelated (meaning they don't react the same way to the same news), the overall volatility of a portfolio decreases. This is the foundation of modern portfolio theory.",
-    "description": "You currently own stock in an airline. To achieve the best diversification, should you add an aircraft manufacturing stock or an internet service provider stock to your portfolio?",
+    "question": "Moral Hazard and Behavioral Change",
+    "content": "Moral hazard is a situation in which one party gets involved in a risky event knowing that it is protected against the risk and the other party will incur the cost. It usually occurs when the person taking the risk has more information about its actions than the person paying for the consequences. This is why insurance companies include 'deductibles'—to ensure the policyholder still has some 'skin in the game.'",
+    "description": "After a government announces a 100% guarantee to bail out any bank that fails, several bank CEOs begin making extremely high-risk investments they previously avoided. This is a classic example of:",
     "options": [
-      "An internet service provider stock.",
-      "An aircraft manufacturing stock.",
-      "An oil refinery stock.",
-      "A travel agency stock."
-    ],
-    "answer": "An internet service provider stock.",
-    "explanation": "Airlines and aircraft manufacturers are in the same sector. An internet provider is uncorrelated to travel, meaning if fuel prices hurt airlines, the internet provider remains unaffected."
-  },
-  {
-    "question": "3. The Concept of Moral Hazard",
-    "content": "Moral hazard occurs after a contract is signed. It describes a change in behavior: when an individual is insulated from risk, they may act more recklessly. This is a major challenge for insurers and bank bailouts alike.",
-    "description": "If a homeowner stops checking their smoke detector batteries only after they purchase a 100% payout fire insurance policy, what financial concept are they demonstrating?",
-    "options": [
-      "Moral Hazard",
       "Adverse Selection",
-      "Systematic Risk",
-      "Diversification"
+      "Systematic Diversification",
+      "Moral Hazard",
+      "The Efficient Markets Hypothesis"
     ],
     "answer": "Moral Hazard",
-    "explanation": "The protection provided by the insurance policy removed the homeowner's incentive to take preventive measures against fire."
+    "explanation": "The 'safety net' provided by the government removed the penalty for failure, encouraging the CEOs to take risks they wouldn't have taken if their own capital was at stake."
   },
   {
-    "question": "4. Adverse Selection",
-    "content": "Adverse selection happens before a contract is signed due to asymmetric information. If an insurer offers a flat rate, those who know they are high-risk will rush to buy it, while low-risk individuals will opt out, eventually causing the insurance pool to fail.",
-    "description": "A health insurance company offers a plan with no medical exam. Why might this lead to a 'death spiral' where premiums keep rising until the company goes out of business?",
+    "question": "Adverse Selection in Markets",
+    "content": "Adverse selection refers to a process in which undesired results occur when buyers and sellers have access to different information. The 'bad' risk types are more likely to select themselves into an insurance pool or a loan agreement, while the 'good' risk types opt out because the price is too high for them.",
+    "description": "If a life insurance company stops asking about a person's smoking habits and charges everyone the same 'average' price, what is the most likely outcome for the company's pool of customers?",
     "options": [
-      "Because only sick people (high-risk) will find the plan attractive, driving up claim costs.",
-      "Because healthy people will take more risks knowing they are covered.",
-      "Because the government will tax the company for not performing exams.",
-      "Because medical exams are the only way for a company to make a profit."
+      "Smokers will flock to the plan while non-smokers will leave for cheaper options.",
+      "The company will make a record profit because everyone likes simplicity.",
+      "Non-smokers will join in huge numbers to support the smokers.",
+      "The government will take over the company to ensure fairness."
     ],
-    "answer": "Because only sick people (high-risk) will find the plan attractive, driving up claim costs.",
-    "explanation": "This is adverse selection; the 'bad' risks select themselves into the pool, forcing the company to raise prices, which then scares away any remaining 'good' risks."
+    "answer": "Smokers will flock to the plan while non-smokers will leave for cheaper options.",
+    "explanation": "The 'average' price is a great deal for a high-risk smoker but a bad deal for a healthy non-smoker. The 'bad' risks select into the plan, driving up costs."
   },
   {
-    "question": "5. Prospect Theory: Loss Aversion",
-    "content": "Behavioral finance shows that humans are not purely rational. 'Prospect Theory' suggests we value gains and losses differently. Specifically, we experience the pain of a loss much more intensely than the joy of an equivalent gain.",
-    "description": "An investor holds a stock that has lost 40% of its value. Despite new data showing the company is failing, they refuse to sell because they don't want to 'make the loss real.' What bias is this?",
+    "question": "Standard Deviation as a Measure of Risk",
+    "content": "In finance, risk is often defined as 'volatility,' which is mathematically measured using standard deviation. Standard deviation tells us how much an asset's return varies from its average return. A high standard deviation means the price swings wildly (high risk), while a low standard deviation means the price is relatively stable (low risk).",
+    "description": "Stock A has an average return of 8% with a standard deviation of 2%. Stock B has an average return of 8% with a standard deviation of 20%. Which stock is considered 'riskier' for a retiree who needs a steady income?",
     "options": [
-      "Loss Aversion",
-      "Overconfidence Bias",
-      "The Wealth Effect",
-      "Efficient Markets"
+      "Stock A",
+      "Both are equally safe because the average return is 8%.",
+      "Stock B",
+      "Neither, as risk is only measured by the price of the stock."
     ],
-    "answer": "Loss Aversion",
-    "explanation": "Loss aversion leads investors to take irrational risks (like holding a failing stock) just to avoid the psychological sting of admitting a loss."
+    "answer": "Stock B",
+    "explanation": "Even though the average is the same, Stock B's high standard deviation means it could drop 20% in a single year, which could be catastrophic for someone relying on that money for monthly bills."
   },
   {
-    "question": "6. Underwriting Risk",
-    "content": "Underwriters are the gatekeepers of risk. In an IPO or a bond issue, the underwriter (usually an investment bank) evaluates the issuer and often guarantees the sale of the securities, taking on the risk that the market won't buy them.",
-    "description": "If an investment bank agrees to a 'Firm Commitment' underwriting for a new stock but the public refuses to buy the shares at the set price, who loses the money?",
+    "question": "Systematic vs. Idiosyncratic Risk",
+    "content": "Total risk can be broken down into two parts. Systematic risk (Market Risk) affects the entire economy (like an interest rate hike or a global pandemic). Idiosyncratic risk (Specific Risk) affects only one company or industry (like a factory fire or a CEO scandal). Diversification can eliminate idiosyncratic risk, but it cannot eliminate systematic risk.",
+    "description": "An investor owns shares in 50 different companies across 10 different countries. A global recession hits and all 50 stocks drop in value. Which type of risk has the investor failed to avoid?",
     "options": [
-      "The Investment Bank.",
-      "The company issuing the stock.",
-      "The Central Bank.",
-      "The existing shareholders only."
+      "Idiosyncratic Risk",
+      "Systematic Risk",
+      "Credit Risk",
+      "Liquidity Risk"
     ],
-    "answer": "The Investment Bank.",
-    "explanation": "In a firm commitment, the bank has already bought the shares from the company; if they can't resell them, the bank carries the loss."
+    "answer": "Systematic Risk",
+    "explanation": "Systematic risk is the 'undiversifiable' risk of the entire market. No matter how many stocks you own, you cannot diversify away from a global economic collapse."
   },
   {
-    "question": "7. Social Insurance",
-    "content": "Social insurance, like Social Security, is mandated by the government. Shiller argues this is necessary because if it were voluntary, the 'good risks' would leave, making the system unaffordable for those who need it most.",
-    "description": "Why is the 'compulsory' nature of Social Security considered a solution to the problem of adverse selection?",
+    "question": "The Concept of 'Beta'",
+    "content": "Beta is a measure used in fundamental analysis to determine the volatility of an asset or portfolio in relation to the overall market. The market has a Beta of 1.0. A stock with a Beta higher than 1.0 is more volatile than the market, and a stock with a Beta lower than 1.0 is less volatile.",
+    "description": "If a gold mining stock has a Beta of 1.8, and the overall stock market drops by 10% during a crash, what is the expected move for the gold mining stock?",
     "options": [
-      "It forces both low-risk and high-risk individuals into the pool, keeping average costs down.",
-      "It allows the government to invest the money in high-risk startups.",
-      "It eliminates the need for any actuarial math.",
-      "It prevents the stock market from crashing."
+      "A drop of 18%.",
+      "A drop of exactly 1.8%.",
+      "An increase of 18%.",
+      "A drop of 10%."
     ],
-    "answer": "It forces both low-risk and high-risk individuals into the pool, keeping average costs down.",
-    "explanation": "By requiring everyone to participate, the system ensures a healthy balance of contributors, preventing the 'selection' of only high-cost participants."
+    "answer": "A drop of 18%.",
+    "explanation": "A Beta of 1.8 means the stock is 80% more volatile than the market. If the market drops 10%, you multiply that by the Beta ($10 \times 1.8$) to get an 18% expected drop."
   },
   {
-    "question": "8. Hedging and Futures",
-    "content": "Hedging is using financial instruments to cancel out a risk you already have. A futures contract allows a producer or consumer to lock in a price today for a transaction that will happen in the future, providing budget certainty.",
-    "description": "A coffee shop chain is worried that the price of coffee beans will double next year. What contract should they enter today to fix their future costs?",
+    "question": "Loss Aversion: The Pain of Losing",
+    "content": "Loss aversion is a cognitive bias that describes why, for individuals, the pain of losing is psychologically twice as powerful as the joy of gaining. This lead to 'irrational' behavior, such as holding on to a losing investment far too long just to avoid the psychological pain of 'realizing' the loss.",
+    "description": "You find $100 on the street and feel happy. Later that day, you lose $100 through a hole in your pocket. According to behavioral finance, how do you likely feel at the end of the day?",
     "options": [
-      "A Futures Contract to buy coffee.",
-      "A Spot Market transaction.",
-      "A Dividend Reinvestment Plan.",
-      "A Stock Split agreement."
+      "Neutral, as the net gain is zero.",
+      "Happier, because finding money is more memorable than losing it.",
+      "Worse, because the pain of the loss outweighs the joy of the gain.",
+      "Confused, because you don't understand probability."
     ],
-    "answer": "A Futures Contract to buy coffee.",
-    "explanation": "The futures contract locks in the price now, so even if coffee prices double globally, the shop pays the price agreed upon today."
+    "answer": "Worse, because the pain of the loss outweighs the joy of the gain.",
+    "explanation": "Psychologically, the 'negative' weight of the $100 loss is much heavier than the 'positive' weight of the $100 find, leaving you with a net feeling of sadness."
   },
   {
-    "question": "9. Real vs. Nominal Returns",
-    "content": "Inflation erodes the purchasing power of money. To find your 'Real' return, you must subtract the inflation rate from your 'Nominal' (advertised) return. Shiller emphasizes that long-term investors must focus on real returns to survive.",
-    "description": "If your bank account pays 3% interest but inflation is 5%, what is happening to the actual purchasing power of your savings?",
+    "question": "Risk Pooling: The Anchor of Insurance",
+    "content": "Risk pooling is the collection and management of financial contributions from many individuals to cover the potential large losses of a few. By pooling together, individuals trade a small, certain loss (the premium) for protection against a large, uncertain loss (the catastrophe).",
+    "description": "What is the primary 'financial product' being sold when a group of ship-owners agrees to share the cost if any one of their ships sinks?",
     "options": [
-      "It is decreasing by 2% per year.",
-      "It is increasing by 3% per year.",
-      "It is staying exactly the same.",
-      "It is increasing by 8% per year."
+      "A bond.",
+      "An equity share.",
+      "Insurance (Risk Pooling).",
+      "A short-sale contract."
     ],
-    "answer": "It is decreasing by 2% per year.",
-    "explanation": "Even though you have more dollars (nominal), those dollars buy 5% less stuff. Your 'Real' return is 3% - 5% = -2%."
+    "answer": "Insurance (Risk Pooling).",
+    "explanation": "This is the most basic form of insurance. Each owner pays a little bit so that no single owner is ruined by a single disaster."
   },
   {
-    "question": "10. Overconfidence Bias",
-    "content": "Overconfidence bias leads people to believe their private information or skills are superior to the market average. This often results in excessive trading, which increases costs and lowers returns.",
-    "description": "A trader believes they can predict market turns based on 'gut feeling' and trades 50 times a day, losing most of their profit to commission fees. What bias is most likely at play?",
+    "question": "The Value of 'Limited Liability'",
+    "content": "Limited liability is a legal status where a person's financial liability is limited to a fixed sum, most commonly the value of a person's investment in a corporation. This allows individuals to invest in risky ideas without fearing that their personal home or savings will be seized if the business fails.",
+    "description": "If you invest $500 in a new tech company and that company goes bankrupt owing $10 million to its creditors, what is the maximum amount you can legally be forced to pay?",
     "options": [
-      "Overconfidence Bias",
-      "Anchoring Bias",
-      "Loss Aversion",
-      "The Disposition Effect"
+      "The full $10 million.",
+      "Your $500 investment.",
+      "A percentage of your annual salary.",
+      "Nothing, investors never lose money."
     ],
-    "answer": "Overconfidence Bias",
-    "explanation": "Overconfidence causes the trader to believe they have a skill (market timing) that they likely do not possess, leading to counter-productive behavior."
+    "answer": "Your $500 investment.",
+    "explanation": "Limited liability 'limits' your loss to exactly what you put in. Your personal assets are legally protected from the company's debts."
+  },
+  {
+    "question": "Inflation-Indexed Bonds (TIPS)",
+    "content": "Inflation-Indexed Bonds are designed to protect investors from the negative effects of inflation. The principal of the bond increases with inflation (measured by the Consumer Price Index). This ensures that the 'purchasing power' of the money invested remains constant over time.",
+    "description": "If you buy a standard bond with a 2% interest rate, but inflation rises to 10%, what has happened to your 'Real' return?",
+    "options": [
+      "You have a real return of 12%.",
+      "You have a negative real return of -8%.",
+      "You have a real return of 2%.",
+      "Your return is automatically adjusted by the bank."
+    ],
+    "answer": "You have a negative real return of -8%.",
+    "explanation": "Real Return = Nominal Return - Inflation ($2 - 10 = -8$). Even though you have more dollars, those dollars buy 8% less than they did before."
   }
 ]
