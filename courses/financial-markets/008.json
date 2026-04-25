@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Debt-Deflation Spiral",
+    "content": "Economist Irving Fisher described a 'Debt-Deflation Spiral' where falling prices (deflation) increase the 'real' value of debt. As people struggle to pay back loans with money that is now more valuable, they cut spending, which causes prices to fall even further. This creates a vicious cycle that can lead to a prolonged economic depression.",
+    "description": "If you owe $100,000 to a bank and the price of everything in the economy (including your salary) drops by 50%, has your debt effectively become easier or harder to pay back?",
+    "options": [
+      "Harder, because the 'real' burden of the debt has doubled relative to your income.",
+      "Easier, because the dollar is now worth more.",
+      "Easier, because the bank is required to cut your debt in half.",
+      "It remains exactly the same because the nominal amount is $100,000."
+    ],
+    "answer": "Harder, because the 'real' burden of the debt has doubled relative to your income.",
+    "explanation": "Even though the 'number' you owe stays the same, it now takes twice as much work or twice as many goods sold to earn the dollars needed to pay that fixed debt."
+  },
+  {
+    "question": "The Equity Premium Puzzle",
+    "content": "The 'Equity Premium Puzzle' refers to the fact that stocks have historically outperformed bonds by a much larger margin than standard economic models of risk-aversion can explain. Shiller suggests that this might be because people are irrationally afraid of the 'short-term' volatility of stocks, even if they are long-term investors.",
+    "description": "If stocks return 7% and bonds return 2% on average over 100 years, why don't all rational investors put 100% of their money into stocks?",
+    "options": [
+      "Because human psychology makes the fear of a temporary market crash feel worse than the reward of long-term gains.",
+      "Because it is illegal for anyone over age 50 to own stocks.",
+      "Because bonds are guaranteed to never lose value in any single year.",
+      "Because the government limits the total amount of stock any one person can own."
+    ],
+    "answer": "Because human psychology makes the fear of a temporary market crash feel worse than the reward of long-term gains.",
+    "explanation": "Behavioral finance explains this through 'Myopic Loss Aversion'—we check our portfolios too often, see the small losses, and get scared away from the superior long-term returns of equity."
+  },
+  {
+    "question": "Contagion in Global Markets",
+    "content": "Financial contagion occurs when a crisis in one market or country spreads to others, often regardless of the actual economic health of those other regions. This is frequently driven by institutional investors selling their 'good' assets in other countries to cover losses in the 'bad' market where the crisis started.",
+    "description": "If a banking crisis starts in a small European country and suddenly stock markets in Asia and South America crash the next day, even though their economies are strong, what is this called?",
+    "options": [
+      "Financial Contagion",
+      "Market Fundamentalism",
+      "Asset Decoupling",
+      "Currency Pegging"
+    ],
+    "answer": "Financial Contagion",
+    "explanation": "Contagion illustrates the deep interconnectedness of global finance; psychological panic and the need for cash (liquidity) can cause a local fire to become a global blaze."
+  },
+  {
+    "question": "The 'Random Walk' Theory",
+    "content": "The Random Walk theory suggests that stock price changes have the same distribution and are independent of each other. Therefore, past movement or trends of a stock price or market cannot be used to predict its future movement. This is a core part of the argument for passive index investing.",
+    "description": "If a stock has gone up for five days in a row, what does the 'Random Walk' theory say about the probability of it going up on the sixth day?",
+    "options": [
+      "It is still roughly 50/50, as past performance does not predict future results.",
+      "It is 100% likely to go up because it is on a 'streak'.",
+      "It is 0% likely because it is 'due' for a correction.",
+      "The stock will be suspended from trading for being too predictable."
+    ],
+    "answer": "It is still roughly 50/50, as past performance does not predict future results.",
+    "explanation": "In a random walk, the next step is completely independent of the previous steps. The 'streak' is a coincidence, not a predictor."
+  },
+  {
+    "question": "The 'Lindy Effect' in Finance",
+    "content": "The Lindy Effect is the idea that the future life expectancy of a non-perishable thing (like an idea or a financial institution) is proportional to its current age. If a financial practice has survived for 100 years, it is likely to survive for another 100. If a 'new' financial invention has only been around for 2 years, it is much more likely to fail.",
+    "description": "According to the Lindy Effect, which of these is 'safer' to rely on for your 50-year retirement plan?",
+    "options": [
+      "Gold and land (used for thousands of years).",
+      "A brand-new cryptocurrency launched last month.",
+      "A high-frequency trading algorithm created yesterday.",
+      "A speculative startup company with no revenue."
+    ],
+    "answer": "Gold and land (used for thousands of years).",
+    "explanation": "The Lindy Effect suggests that time is the best judge of robustness. Assets that have survived every war and depression in history are statistically more likely to remain valuable."
+  },
+  {
+    "question": "Predatory Lending and Regulation",
+    "content": "Predatory lending involves imposing unfair or abusive loan terms on borrowers. This often targets vulnerable populations who lack financial literacy. Shiller argues that a 'civilized' financial system must have 'Truth in Lending' laws to ensure that the terms of a loan are clear and not designed to trick the borrower into a cycle of debt.",
+    "description": "A 'Payday Loan' store charges an interest rate that equals 400% annually, knowing the borrower can never pay it back in full. This is a primary target for which type of regulation?",
+    "options": [
+      "Consumer Protection Laws",
+      "Anti-Trust Laws",
+      "Environmental Regulations",
+      "Corporate Governance Codes"
+    ],
+    "answer": "Consumer Protection Laws",
+    "explanation": "Consumer protection aims to prevent exploitation in the credit markets, ensuring that lending is transparent and that interest rates do not become 'usury'."
+  },
+  {
+    "question": "The 'Free Rider' Problem in Research",
+    "content": "In financial markets, 'Alpha' is the profit made by doing deep research and finding undervalued stocks. However, if everyone just buys index funds (which is cheap and easy), there is no one left to do the actual research to figure out what a company is worth. These passive investors are 'free-riding' on the hard work of active researchers.",
+    "description": "What might happen to the 'efficiency' of market prices if 100% of all investors stopped doing research and only bought index funds?",
+    "options": [
+      "Market prices would become very inefficient and stop reflecting reality.",
+      "Market prices would become perfectly accurate forever.",
+      "Companies would stop needing to report their earnings.",
+      "The stock market would turn into a government-owned bank."
+    ],
+    "answer": "Market prices would become very inefficient and stop reflecting reality.",
+    "explanation": "Active traders are the ones who 'set' the price by buying low and selling high. Without them, there is no mechanism to move prices when a company's value changes."
+  },
+  {
+    "question": "The Curse of the Winner's Equity",
+    "content": "In a 'First-Price' auction (like bidding for an oil field or a company acquisition), the person who wins is often the one who overestimated the value the most. This is known as the 'Winner's Curse.' In finance, companies often overpay for acquisitions in the heat of a bidding war, which later destroys shareholder value.",
+    "description": "If five companies bid for a piece of land, and Company A wins by bidding $10 million while everyone else bid $5 million, what should Company A's shareholders be worried about?",
+    "options": [
+      "That they have 'overpaid' significantly due to the Winner's Curse.",
+      "That the government will seize the land.",
+      "That the other four companies will sue them for winning.",
+      "That the land will physically shrink."
+    ],
+    "answer": "That they have 'overpaid' significantly due to the Winner's Curse.",
+    "explanation": "If the average market opinion was $5 million, the winner's $10 million bid likely reflects a psychological error or over-optimism rather than the actual value."
+  },
+  {
+    "question": "Capital Gains vs. Ordinary Income",
+    "content": "Tax systems often treat different types of income differently. 'Ordinary Income' (wages from a job) is usually taxed at a higher rate than 'Long-term Capital Gains' (profits from selling an investment held for over a year). This is intended to encourage long-term investment in the economy.",
+    "description": "If an investor buys a house, rents it out for 10 years, and then sells it for a profit, which tax rate will they likely pay on that profit in most modern economies?",
+    "options": [
+      "The Capital Gains tax rate.",
+      "The Payroll tax rate.",
+      "The Sales tax rate.",
+      "No tax at all, as real estate is exempt."
+    ],
+    "answer": "The Capital Gains tax rate.",
+    "explanation": "Since the profit came from the increase in the 'capital' value of the asset over a long period, it qualifies for the lower capital gains rate."
+  },
+  {
+    "question": "The Goal of Financial Democratization",
+    "content": "Shiller’s vision for the future of finance is 'Democratization'—making the sophisticated tools used by billionaires (like hedging, insurance, and diversification) available to everyone. This includes micro-insurance for the poor and better retirement tools for workers. He believes that finance, when designed correctly, is a powerful tool for social equality.",
+    "description": "Which of the following innovations best represents Shiller’s idea of 'Financial Democratization'?",
+    "options": [
+      "Smartphone apps that allow people to buy fractional shares of a stock for $1.",
+      "Increasing the fees for opening a bank account.",
+      "Limiting the stock market to only 'accredited' wealthy investors.",
+      "A law that prevents small businesses from taking out loans."
+    ],
+    "answer": "Smartphone apps that allow people to buy fractional shares of a stock for $1.",
+    "explanation": "By lowering the barriers to entry, technology allows everyone to participate in the wealth-building power of the markets, regardless of their starting balance."
+  }
+]
