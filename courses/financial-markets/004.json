@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Commercial vs. Investment Banking",
+    "content": "Commercial banks primarily accept deposits and make loans to individuals and small businesses. Investment banks, on the other hand, focus on large-scale capital raising (IPOs, bond issuances) and mergers and acquisitions (M&A). After the 1929 crash, the Glass-Steagall Act was passed to separate these two functions to prevent banks from risking depositors' savings in speculative market activities.",
+    "description": "A local business owner wants to take out a $50,000 loan to renovate their bakery. Which type of financial institution would they typically visit for this service?",
+    "options": [
+      "Commercial Bank",
+      "Investment Bank",
+      "Stock Exchange",
+      "Hedge Fund"
+    ],
+    "answer": "Commercial Bank",
+    "explanation": "Commercial banks are designed for traditional lending and deposit-taking, whereas investment banks deal with complex securities and large corporate financing."
+  },
+  {
+    "question": "The Role of the SEC",
+    "content": "The Securities and Exchange Commission (SEC) is the primary regulatory body for financial markets in the United States. Its mission is to protect investors, maintain fair and orderly markets, and facilitate capital formation. One of its most powerful tools is the requirement for 'Full Disclosure,' meaning companies must provide all material facts to the public before selling securities.",
+    "description": "If a public company discovers a major flaw in its product but refuses to mention it in its quarterly financial report, which regulatory body is most likely to bring an enforcement action against them?",
+    "options": [
+      "SEC (Securities and Exchange Commission)",
+      "The Federal Reserve",
+      "The Department of Education",
+      "The World Bank"
+    ],
+    "answer": "SEC (Securities and Exchange Commission)",
+    "explanation": "The SEC enforces laws regarding transparency and disclosure, ensuring that companies do not withhold information that could impact an investor's decision."
+  },
+  {
+    "question": "Venture Capital and the 'J-Curve'",
+    "content": "Venture Capital (VC) is a form of private equity that provides funding to early-stage, high-potential startups. VC investing follows the 'J-Curve' effect: in the early years, the portfolio often loses money as companies spend cash to grow, but the hope is that a few 'winners' will eventually provide massive returns that outweigh the many failures.",
+    "description": "A VC firm invests in 10 tech startups. Seven of them fail completely, two break even, and one becomes a billion-dollar company. Is this considered a successful or failed outcome for a typical VC fund?",
+    "options": [
+      "Successful, because the one 'home run' covers all other losses.",
+      "Failed, because the majority of the companies went bankrupt.",
+      "Failed, because they didn't achieve diversification.",
+      "Successful, because breaking even is the primary goal of VC."
+    ],
+    "answer": "Successful, because the one 'home run' covers all other losses.",
+    "explanation": "VC is a 'hits-driven' business. A single massive success (like early investment in Google or Facebook) can return the entire value of the fund multiple times over."
+  },
+  {
+    "question": "Exchanges vs. Dark Pools",
+    "content": "A public stock exchange (like the NYSE) is a transparent marketplace where buy and sell orders are displayed. 'Dark Pools,' however, are private exchanges where large institutional investors can trade massive blocks of shares without the public seeing the price or volume until the trade is completed. This prevents 'slippage'—where the market price moves against the trader before they can finish their large order.",
+    "description": "Why would a massive pension fund prefer to sell 5 million shares of a stock in a 'Dark Pool' rather than on the public New York Stock Exchange?",
+    "options": [
+      "To avoid alerting the market and causing the price to drop before the sale is finished.",
+      "Because Dark Pools are the only place where trading is legal.",
+      "To avoid paying any taxes on the transaction.",
+      "Because public exchanges do not allow the sale of more than 100 shares."
+    ],
+    "answer": "To avoid alerting the market and causing the price to drop before the sale is finished.",
+    "explanation": "In a transparent market, seeing a 5-million-share sell order would cause other traders to panic and drop the price. Dark pools hide the 'intent' to sell until the deal is done."
+  },
+  {
+    "question": "Non-Profit Organizations and Endowments",
+    "content": "Non-profits often manage 'Endowments'—large pools of donated money that are invested to provide a permanent source of income. Shiller notes that these institutions must balance the need for high returns to fund their mission with the need to protect the principal for future generations, often leading to a very long-term investment horizon.",
+    "description": "A university endowment has a 'spending rate' of 5% per year. If the endowment's investments only return 2% for several years while inflation is high, what must the university do to maintain the fund's 'Real' value?",
+    "options": [
+      "Cut spending or seek new donations to prevent the fund from shrinking.",
+      "Spend more money to stimulate the economy.",
+      "Move all money into a 0% interest checking account.",
+      "Nothing, as endowments are immune to inflation."
+    ],
+    "answer": "Cut spending or seek new donations to prevent the fund from shrinking.",
+    "explanation": "If the spending exceeds the investment return (especially after accounting for inflation), the 'Real' value of the endowment will erode over time."
+  },
+  {
+    "question": "The Principal-Agent Problem in Corporations",
+    "content": "In most public companies, the owners (shareholders) do not run the business. They hire agents (managers/CEOs) to do it for them. The 'Principal-Agent Problem' arises when the agent's interests don't align with the principal's—for example, a CEO focusing on short-term stock price to get a bonus rather than long-term stability.",
+    "description": "A company's Board of Directors decides to pay the CEO mostly in 'Restricted Stock Units' that cannot be sold for five years. Which problem is this policy trying to solve?",
+    "options": [
+      "The Principal-Agent Problem",
+      "Adverse Selection",
+      "Systemic Risk",
+      "Hyperinflation"
+    ],
+    "answer": "The Principal-Agent Problem",
+    "explanation": "By forcing the CEO to hold stock for five years, the Board aligns the CEO's personal wealth with the long-term health and stock price of the company, benefiting the shareholders."
+  },
+  {
+    "question": "Social Security and Intergenerational Equity",
+    "content": "Social Security is often described as a 'Pay-as-you-go' system. The taxes paid by current workers are not saved in a personal account; they are immediately used to pay benefits to current retirees. This relies on 'Intergenerational Equity'—the idea that the next generation will be there to support the current one when they retire.",
+    "description": "What happens to a 'Pay-as-you-go' social security system if the number of workers drops significantly while the number of retirees increases?",
+    "options": [
+      "The system faces a funding crisis and must either raise taxes or cut benefits.",
+      "The system automatically prints more money without inflation.",
+      "The retirees are forced to return to work immediately.",
+      "Nothing, because the money was saved in a vault years ago."
+    ],
+    "answer": "The system faces a funding crisis and must either raise taxes or cut benefits.",
+    "explanation": "Because current workers fund current retirees, a shrinking workforce (lower birth rates) creates a deficit in the amount of cash available to pay out promised benefits."
+  },
+  {
+    "question": "Corporate Social Responsibility (CSR)",
+    "content": "CSR is the idea that a corporation should be accountable not just to its shareholders (profit), but also to its 'stakeholders' (employees, customers, the environment, and the community). Professor Shiller argues that finance is a 'service' to society and that ethical behavior is essential for the long-term legitimacy of financial markets.",
+    "description": "A company decides to spend $10 million to reduce its carbon footprint, even though it is not legally required to do so. This is an example of focusing on:",
+    "options": [
+      "Stakeholder Theory",
+      "Pure Profit Maximization",
+      "Capital Asset Pricing Model",
+      "Efficient Market Hypothesis"
+    ],
+    "answer": "Stakeholder Theory",
+    "explanation": "Stakeholder theory argues that a company should create value for the community and environment, not just the people who own the stock."
+  },
+  {
+    "question": "Systemic Risk and 'Too Big to Fail'",
+    "content": "Systemic risk is the risk of a collapse of an entire financial system or market, as opposed to risk associated with any one individual entity. 'Too Big to Fail' refers to the idea that some financial institutions are so large and interconnected that their failure would be catastrophic for the economy, forcing the government to bail them out.",
+    "description": "During the 2008 financial crisis, the government provided billions of dollars to large banks. What was the primary justification for this action?",
+    "options": [
+      "To prevent systemic risk from causing a total collapse of the global economy.",
+      "To reward the bank executives for their performance.",
+      "To encourage people to stop using credit cards.",
+      "Because the government is legally required to pay for all bank losses."
+    ],
+    "answer": "To prevent systemic risk from causing a total collapse of the global economy.",
+    "explanation": "The fear was that if these massive, interconnected banks failed, they would take down every other business and individual's savings with them."
+  },
+  {
+    "question": "The Role of Credit Rating Agencies",
+    "content": "Credit rating agencies (like Moody's or S&P) provide 'grades' on the riskiness of bonds. An 'AAA' rating means the bond is very safe, while a 'Junk' rating means there is a high risk of default. These agencies are critical for helping investors decide where to put their money, but they faced criticism in 2008 for giving high ratings to risky mortgage-backed securities.",
+    "description": "If a city wants to build a new bridge and issues bonds to pay for it, why would they want to achieve a high credit rating from an agency?",
+    "options": [
+      "To lower the interest rate they have to pay to investors.",
+      "To make the bridge look more attractive to tourists.",
+      "To avoid having to pay back the principal.",
+      "To ensure that only local citizens can buy the bonds."
+    ],
+    "answer": "To lower the interest rate they have to pay to investors.",
+    "explanation": "A higher rating means lower risk. Investors are willing to accept a lower interest rate in exchange for the safety of an 'AAA' or 'AA' rated bond."
+  }
+]
