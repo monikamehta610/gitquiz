@@ -1,0 +1,132 @@
+[
+  {
+    "question": "1. Helicase and the Replication Fork",
+    "content": "DNA replication is semi-conservative and depends on complementary base pairing. Before the strands can be copied, the double helix must be 'unzipped.' The enzyme Helicase achieves this by traveling along the DNA molecule and breaking the hydrogen bonds between the nitrogenous bases.",
+    "description": "What is the primary function of Helicase during the DNA replication process?",
+    "options": [
+      "To break hydrogen bonds and unwind the double helix.",
+      "To catalyze the formation of phosphodiester bonds.",
+      "To prevent the DNA strands from re-annealing.",
+      "To replace RNA primers with DNA nucleotides."
+    ],
+    "answer": "To break hydrogen bonds and unwind the double helix.",
+    "explanation": "Helicase uses ATP to break the hydrogen bonds between A-T and C-G pairs, separating the parental strands into a replication fork."
+  },
+  {
+    "question": "2. DNA Polymerase III Directionality",
+    "content": "DNA Polymerase III is the main enzyme that adds new nucleotides to the growing DNA strand. However, it can only add a nucleotide to an existing 3' hydroxyl (-OH) group. This restriction means that DNA is always synthesized in a 5' to 3' direction.",
+    "description": "Why can DNA Polymerase III only synthesize DNA in a 5' to 3' direction?",
+    "options": [
+      "Because it can only add new nucleotides to the 3' end of an existing chain.",
+      "Because the 5' end of the sugar is too small for the enzyme to bind.",
+      "Because hydrogen bonds can only form in one direction.",
+      "Because RNA primers are only capable of moving in that direction."
+    ],
+    "answer": "Because it can only add new nucleotides to the 3' end of an existing chain.",
+    "explanation": "DNA Polymerase III requires a free 3' -OH group to catalyze the condensation reaction that attaches the next phosphate group."
+  },
+  {
+    "question": "3. Leading and Lagging Strands",
+    "content": "Because the two strands of DNA are antiparallel and polymerase only works 5' to 3', one strand is synthesized continuously (leading strand) while the other is synthesized in short fragments called Okazaki fragments (lagging strand).",
+    "description": "Which enzyme is specifically required on the lagging strand to join Okazaki fragments together into a continuous sugar-phosphate backbone?",
+    "options": [
+      "DNA Ligase",
+      "DNA Polymerase I",
+      "RNA Primase",
+      "Topoisomerase"
+    ],
+    "answer": "DNA Ligase",
+    "explanation": "DNA Ligase 'seals' the nicks between fragments by forming covalent phosphodiester bonds, ensuring the strand is continuous."
+  },
+  {
+    "question": "4. The Meselson-Stahl Experiment",
+    "content": "In 1958, Meselson and Stahl provided evidence for the semi-conservative model of replication. They grew E. coli in a medium containing heavy nitrogen (15N) and then transferred them to a medium with light nitrogen (14N). After one generation, the DNA was of intermediate density.",
+    "description": "If the 'conservative' model of replication had been correct, what would Meselson and Stahl have seen after the first generation in 14N?",
+    "options": [
+      "One band of heavy DNA and one band of light DNA.",
+      "One single band of intermediate-density DNA.",
+      "Only a single band of light DNA.",
+      "A mixture of DNA and RNA strands."
+    ],
+    "answer": "One band of heavy DNA and one band of light DNA.",
+    "explanation": "In conservative replication, the original heavy molecule would stay intact and a completely new light molecule would form, resulting in two distinct density bands."
+  },
+  {
+    "question": "5. Transcription and RNA Polymerase",
+    "content": "Transcription is the process by which an RNA sequence is produced from a DNA template. RNA Polymerase binds to a site called the promoter, unwinds the DNA, and aligns RNA nucleotides using complementary base pairing (A-U and C-G).",
+    "description": "During transcription, what happens to the DNA strands once the RNA Polymerase has passed through a specific region?",
+    "options": [
+      "The DNA strands reform the double helix.",
+      "The DNA strands remain separated forever.",
+      "The DNA strands are degraded by enzymes.",
+      "The DNA strands are converted into RNA."
+    ],
+    "answer": "The DNA strands reform the double helix.",
+    "explanation": "Transcription is a temporary 'opening' of the DNA; once the RNA strand is synthesized, the DNA double helix zips back up."
+  },
+  {
+    "question": "6. The Sense and Antisense Strands",
+    "content": "In transcription, only one of the two DNA strands is used as a template. This is the antisense strand. The other strand, called the sense strand, has a sequence identical to the mRNA (except DNA has T and mRNA has U).",
+    "description": "If the antisense DNA strand has the sequence 3'-TAC-GGC-5', what will be the sequence of the resulting mRNA?",
+    "options": [
+      "5'-AUG-CCG-3'",
+      "5'-UAC-GGC-3'",
+      "5'-ATG-CCG-3'",
+      "3'-AUG-CCG-5'"
+    ],
+    "answer": "5'-AUG-CCG-3'",
+    "explanation": "mRNA is built complementary to the antisense strand and antiparallel to it, replacing T with U."
+  },
+  {
+    "question": "7. Translation and the Genetic Code",
+    "content": "Translation is the synthesis of polypeptides on ribosomes. The mRNA is read in sets of three bases called codons. Each codon corresponds to one specific amino acid, making the genetic code 'degenerate' but 'unambiguous.'",
+    "description": "What does it mean when we say the genetic code is 'degenerate'?",
+    "options": [
+      "More than one codon can code for the same amino acid.",
+      "The code decays over time due to mutations.",
+      "One codon can code for many different amino acids.",
+      "The code is different in plants than it is in animals."
+    ],
+    "answer": "More than one codon can code for the same amino acid.",
+    "explanation": "With 64 possible codons and only 20 amino acids, most amino acids are represented by multiple different codons (e.g., GGU, GGC, GGA, and GGG all code for Glycine)."
+  },
+  {
+    "question": "8. The Role of tRNA",
+    "content": "Transfer RNA (tRNA) molecules are the 'translators.' One end of the tRNA has an anticodon that binds to the mRNA codon, while the other end carries the specific amino acid corresponding to that codon.",
+    "description": "If an mRNA codon is 5'-UCG-3', what is the sequence of the matching tRNA anticodon?",
+    "options": [
+      "3'-AGC-5'",
+      "3'-UCG-5'",
+      "5'-AGC-3'",
+      "3'-TGC-5'"
+    ],
+    "answer": "3'-AGC-5'",
+    "explanation": "The anticodon must be complementary (A-U, C-G) and antiparallel to the codon."
+  },
+  {
+    "question": "9. PCR and Taq Polymerase",
+    "content": "The Polymerase Chain Reaction (PCR) is used to amplify small amounts of DNA. It involves heating DNA to separate strands, then using a heat-stable enzyme called Taq Polymerase to replicate the DNA at high temperatures.",
+    "description": "Why is Taq Polymerase used in PCR instead of human DNA polymerase?",
+    "options": [
+      "Taq Polymerase does not denature at the high temperatures used to separate DNA strands.",
+      "Taq Polymerase is much faster at replicating DNA than human enzymes.",
+      "Taq Polymerase does not require a primer to start replication.",
+      "Human DNA polymerase cannot recognize bacterial DNA."
+    ],
+    "answer": "Taq Polymerase does not denature at the high temperatures used to separate DNA strands.",
+    "explanation": "Standard enzymes denature (lose shape) at 95°C. Taq, derived from thermophilic bacteria, remains functional through repeated heating cycles."
+  },
+  {
+    "question": "10. Protein Synthesis: The Big Picture",
+    "content": "The 'Central Dogma' explains the flow of genetic information: DNA stores it, RNA transports it, and ribosomes use it to build proteins. This process is universal across all known life forms.",
+    "description": "Which of the following is the correct order of events in protein synthesis?",
+    "options": [
+      "Transcription → mRNA splicing → Translation.",
+      "Translation → Transcription → Folding.",
+      "Replication → Translation → Transcription.",
+      "Transcription → Replication → Translation."
+    ],
+    "answer": "Transcription → mRNA splicing → Translation.",
+    "explanation": "The DNA is first transcribed into pre-mRNA, then processed (in eukaryotes), and finally translated into a polypeptide at the ribosome."
+  }
+]
